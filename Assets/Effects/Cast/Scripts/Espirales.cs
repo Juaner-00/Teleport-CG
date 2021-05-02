@@ -14,6 +14,7 @@ public class Espirales : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         w += Time.deltaTime;
         velY += Time.deltaTime;
 
@@ -31,5 +32,8 @@ public class Espirales : MonoBehaviour
             gameObject.SetActive(false);
 
         }
+
+        
+
     }
 }
