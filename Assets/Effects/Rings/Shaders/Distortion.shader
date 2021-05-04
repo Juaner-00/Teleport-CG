@@ -26,6 +26,7 @@ Shader "Custom/Distortion/DistortingGrabPass"
             {
                 half4 pos : SV_POSITION;
                 half4 grabPos : TEXCOORD0;
+                half4 uv_Mask : TEXCOORD1;
             };
             
             sampler2D _GrabTexture;
@@ -42,12 +43,13 @@ Shader "Custom/Distortion/DistortingGrabPass"
             
             half4 frag(v2f i) : COLOR 
             {
-                float4 mask = tex2D(_Mask, float2(0, 0));
-
+                half4 mask = tex2D(_Mask, i.uv_Mask.xy);
+                half4 original = tex2D(_GrabTexture, i.grabPos.xy);
                 // i.grabPos.x += sin((_Time.y + i.grabPos.y) * _Intensity)/20;
-                i.grabPos.x += sin((mask + i.grabPos.y) * _Intensity);
-                fixed4 color = tex2Dproj(_GrabTexture, UNITY_PROJ_COORD(i.grabPos));
-                return color;
+                i.grabPos.x += i.grabPos.y * _Intensity * mask.x;
+                // i.grabPos.x += sin((i.grabPos.y) * _Intensity);
+                half4 color = tex2Dproj(_GrabTexture, UNITY_PROJ_COORD(i.grabPos));
+                return lerp (original, color, mask);
             }
             ENDCG
         }
