@@ -15,11 +15,11 @@ C:/Users/hdmos/Dropbox/Mi PC (DESKTOP-7S88MDE)/Documents/Teleport-CG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53051
+50568
 Successfully changed project path to: C:/Users/hdmos/Dropbox/Mi PC (DESKTOP-7S88MDE)/Documents/Teleport-CG
 C:/Users/hdmos/Dropbox/Mi PC (DESKTOP-7S88MDE)/Documents/Teleport-CG
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 50.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,285 +35,604 @@ Initialize mono
 Mono path[0] = 'C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003142 seconds.
+Registered in 0.003132 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 36.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.385 seconds
+- Completed reload, in  2.943 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001468 seconds.
+Registered in 0.001675 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.074 seconds
+- Completed reload, in  1.381 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.6 MB.
-System memory in use after: 63.7 MB.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 135.9 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1719.
-Total: 2.681200 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.309400 ms  DeleteObjects: 0.086600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Material/rAYOSsol.mat
-  artifactKey: Guid(db0cb27772b779b47abb1f6f13514b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/rAYOSsol.mat using Guid(db0cb27772b779b47abb1f6f13514b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b307f30bec01b0c4c695c113b97e1ab6') in 3.250115 seconds
-  Import took 3.254436 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1721.
+Total: 3.352400 ms (FindLiveObjects: 0.157800 ms CreateObjectMapping: 0.051900 ms MarkObjects: 3.007200 ms  DeleteObjects: 0.133400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Material/trail.png
-  artifactKey: Guid(24d25cb5ef533a14a9e2863d6ae7022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/trail.png using Guid(24d25cb5ef533a14a9e2863d6ae7022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625eec0d55ab009a56486fc47ecb7ace') in 0.289850 seconds
-  Import took 0.296454 seconds .
+  path: Assets/Shaders/Aro.png
+  artifactKey: Guid(3bd184245683d974ba1e4622e5344841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Aro.png using Guid(3bd184245683d974ba1e4622e5344841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d742f75bad8106e66c3554de56bb680') in 0.311295 seconds
+  Import took 0.314847 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Material/Sun.mat
-  artifactKey: Guid(c333e0e3eb82a7345aa4fec8f9e4cd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Sun.mat using Guid(c333e0e3eb82a7345aa4fec8f9e4cd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1827a2519ccf86fc50b418c74729429') in 0.843127 seconds
-  Import took 0.848063 seconds .
+  Time since last request: 607.414009 seconds.
+  path: Assets/Shaders/Proyector CG.png
+  artifactKey: Guid(54db325974fc499499e337becc8607c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector CG.png using Guid(54db325974fc499499e337becc8607c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73188783a0269e0ab270790582216d2') in 0.188345 seconds
+  Import took 0.285633 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Material/New Material.mat
-  artifactKey: Guid(71f7bf4814e9e9745942480d9a642be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/New Material.mat using Guid(71f7bf4814e9e9745942480d9a642be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796bc73c5b639cf0f89808bcc84a62cb') in 0.179237 seconds
-  Import took 0.182471 seconds .
+  Time since last request: 23.758443 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06621f52ae1d99febff264ccfc1b8179') in 0.141601 seconds
+  Import took 0.167736 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Material/normal.png
-  artifactKey: Guid(fe87e084cf77e824ca370bf9fc7344cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/normal.png using Guid(fe87e084cf77e824ca370bf9fc7344cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cff112fceb3fdce9647a001fa4a4f5') in 0.055716 seconds
-  Import took 0.058642 seconds .
+  Time since last request: 198.453108 seconds.
+  path: Assets/Shaders/Sin título-2.png
+  artifactKey: Guid(35654eaef8fc85d409169a85b43af5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Sin título-2.png using Guid(35654eaef8fc85d409169a85b43af5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb15ae66f60a34b44d8408526ea2a3e') in 0.129341 seconds
+  Import took 0.305474 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Material/TrailB.mat
-  artifactKey: Guid(9e41165f55ddd824ebe6921e7c5f887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/TrailB.mat using Guid(9e41165f55ddd824ebe6921e7c5f887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd182f69b41f9aa4572e4cdac92a47260') in 0.053796 seconds
-  Import took 0.056309 seconds .
+  Time since last request: 66.225720 seconds.
+  path: Assets/Shaders/holi.mat
+  artifactKey: Guid(11f416331f1f1804290a716ae4e9a37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/holi.mat using Guid(11f416331f1f1804290a716ae4e9a37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07d71633576d52b42c4a2e56c69c1da') in 0.476312 seconds
+  Import took 0.547328 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Material/friction.physicMaterial
-  artifactKey: Guid(091928948b853b74687fa4dee50b52bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/friction.physicMaterial using Guid(091928948b853b74687fa4dee50b52bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d73ebbd05034f47ca6bbf512167e2d') in 0.016674 seconds
-  Import took 0.019804 seconds .
+  Time since last request: 69.502705 seconds.
+  path: Assets/Shaders/Sin título-2.png
+  artifactKey: Guid(35654eaef8fc85d409169a85b43af5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Sin título-2.png using Guid(35654eaef8fc85d409169a85b43af5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22275e623f992de075fd134b4cdcb6cc') in 0.279885 seconds
+  Import took 0.314914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1068.846013 seconds.
+  path: Assets/Shaders/holi.mat
+  artifactKey: Guid(11f416331f1f1804290a716ae4e9a37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/holi.mat using Guid(11f416331f1f1804290a716ae4e9a37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfc843aee27e00f126081bc26cec4c6') in 0.433090 seconds
+  Import took 0.518019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001201 seconds.
+  path: Assets/Shaders/Proyector.mat
+  artifactKey: Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.mat using Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a95259c705fb0d93d5ea1c6f5ba70b') in 0.255526 seconds
+  Import took 0.316267 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.750 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.3 MB.
+System memory in use after: 140.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1781.
+Total: 5.222900 ms (FindLiveObjects: 0.259000 ms CreateObjectMapping: 0.063500 ms MarkObjects: 1.833900 ms  DeleteObjects: 3.064100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 860.564384 seconds.
+  path: Assets/Polygon Arsenal/Demo
+  artifactKey: Guid(1eee852f59d07ba4f85e5ee2cbcdf6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo using Guid(1eee852f59d07ba4f85e5ee2cbcdf6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c46bb227c8b522cd864198ef385f938') in 0.024201 seconds
+  Import took 0.034001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031921 seconds.
+  path: Assets/Polygon Arsenal/Demo
+  artifactKey: Guid(1eee852f59d07ba4f85e5ee2cbcdf6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo using Guid(1eee852f59d07ba4f85e5ee2cbcdf6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c46bb227c8b522cd864198ef385f938') in 0.019107 seconds
+  Import took 0.025262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.047313 seconds.
+  path: Assets/Polygon Arsenal/Demo/Demo Prefabs
+  artifactKey: Guid(15b8b57bbe8b0684a91454a2df9462cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Demo Prefabs using Guid(15b8b57bbe8b0684a91454a2df9462cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da18888b7a43b230214827c6ea391058') in 0.019365 seconds
+  Import took 0.035246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.411892 seconds.
+  path: Assets/Polygon Arsenal/Demo/Demo Prefabs/Scene
+  artifactKey: Guid(ff9ca47a32eb4bc4da2494ce82f68dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Demo Prefabs/Scene using Guid(ff9ca47a32eb4bc4da2494ce82f68dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706a2529890e72453f66677b26624096') in 0.024686 seconds
+  Import took 0.032450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075767 seconds.
+  path: Assets/Polygon Arsenal/Demo/Demo Prefabs/Scene/MainSceneLight.prefab
+  artifactKey: Guid(4a8f60a99223811418389d6ecd87b054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Demo Prefabs/Scene/MainSceneLight.prefab using Guid(4a8f60a99223811418389d6ecd87b054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17267779019ca1aa6e6b743e9317214') in 0.077585 seconds
+  Import took 0.089566 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000290 seconds.
-  path: Assets/Material/RAYOS.png
-  artifactKey: Guid(6bc801bbb93454548a5ebdcb228c5ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/RAYOS.png using Guid(6bc801bbb93454548a5ebdcb228c5ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181cd26280b93b10d2d216d1258b4237') in 0.028991 seconds
-  Import took 0.031736 seconds .
+  path: Assets/Polygon Arsenal/Demo/Demo Prefabs/Scene/Scene.prefab
+  artifactKey: Guid(1c44717da2ac8144e9aea457a785d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Demo Prefabs/Scene/Scene.prefab using Guid(1c44717da2ac8144e9aea457a785d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1ebad682b674efa1e39dea5492d66e') in 0.892250 seconds
+  Import took 0.899296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Polygon Arsenal/Demo/Demo Prefabs/Scene/SwordRotater.prefab
+  artifactKey: Guid(74bc1727e1b8b8f40afa16c2d7505c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Demo Prefabs/Scene/SwordRotater.prefab using Guid(74bc1727e1b8b8f40afa16c2d7505c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd961ae38db73e206bde3bc2e1432c8fb') in 0.069856 seconds
+  Import took 0.074177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Polygon Arsenal/Demo/Demo Prefabs/Scene/PolygonFireProjectile.prefab
+  artifactKey: Guid(b1a835a7561791f46bc1665850178b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Demo Prefabs/Scene/PolygonFireProjectile.prefab using Guid(b1a835a7561791f46bc1665850178b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bb770f460a06606d4f10c164b2fe2c') in 1.371023 seconds
+  Import took 1.799696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.170639 seconds.
+  path: Assets/Polygon Arsenal/Prefabs
+  artifactKey: Guid(0ab7977278e4a704d8b7fe945ceca60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs using Guid(0ab7977278e4a704d8b7fe945ceca60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f3d98386d579bc41113368a12b9bad') in 0.029224 seconds
+  Import took 0.034479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.980893 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat
+  artifactKey: Guid(20d71f13164437d4d9941eb9f1a1fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat using Guid(20d71f13164437d4d9941eb9f1a1fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7b219e4ab863cef4ba1d08ae5dfced') in 0.017270 seconds
+  Import took 0.021370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.920303 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams
+  artifactKey: Guid(f0342a92c81bf174eb110f192c2ab924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams using Guid(f0342a92c81bf174eb110f192c2ab924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c365687f57ae18cb04f135849f39c5cb') in 0.104935 seconds
+  Import took 0.109799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.132119 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Static Beam
+  artifactKey: Guid(ff1ac980cde6a284b9b32b236a5c3966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Static Beam using Guid(ff1ac980cde6a284b9b32b236a5c3966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9db32cbf279a96262fa3b23adc2e302') in 0.028753 seconds
+  Import took 0.033889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.657477 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup
+  artifactKey: Guid(d8a1ed7ae4a718d4c9eefdc4a424d570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup using Guid(d8a1ed7ae4a718d4c9eefdc4a424d570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031801795e6061b6cb3594059e2d96ea') in 0.029022 seconds
+  Import took 0.033915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066535 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamBlue.prefab
+  artifactKey: Guid(f4e37925a54636e4293491c991143948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamBlue.prefab using Guid(f4e37925a54636e4293491c991143948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb79f814bf5c82bf1d2ae6a9f2bfabe') in 0.040844 seconds
+  Import took 0.049885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamGreenStart.prefab
+  artifactKey: Guid(5e7208caf31b2934389f454c23e1f31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamGreenStart.prefab using Guid(5e7208caf31b2934389f454c23e1f31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67125822c9caaa3834103f649250fd13') in 0.052297 seconds
+  Import took 0.071883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamYellowStart.prefab
+  artifactKey: Guid(f553384660fc82d48a16f9421a25b1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamYellowStart.prefab using Guid(f553384660fc82d48a16f9421a25b1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4444cf78e323ba0430647340649f768') in 0.043022 seconds
+  Import took 0.049493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPinkStart.prefab
+  artifactKey: Guid(16371d8c73a3b9d49bef006180bfcbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPinkStart.prefab using Guid(16371d8c73a3b9d49bef006180bfcbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b89b75cca3da0b6988e5ecb33fb062') in 0.054274 seconds
+  Import took 0.059021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPink.prefab
+  artifactKey: Guid(f3b003594429b6645a337e8244cf01e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPink.prefab using Guid(f3b003594429b6645a337e8244cf01e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f64a8d8d9847b6497cd53e474491415') in 0.024396 seconds
+  Import took 0.030487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamYellow.prefab
+  artifactKey: Guid(89393581439b2f845a76dab652442825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamYellow.prefab using Guid(89393581439b2f845a76dab652442825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883299c0fbc8e74fd17b943b60f056dd') in 0.034297 seconds
+  Import took 0.040471 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000280 seconds.
-  path: Assets/Material/Spark 1.png
-  artifactKey: Guid(249a24fe2a4e1cb4c8429ca01f45ee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Spark 1.png using Guid(249a24fe2a4e1cb4c8429ca01f45ee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a096c8dfc9b1f6f88af9c1013aec67') in 0.012754 seconds
-  Import took 0.015260 seconds .
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamGreenEnd.prefab
+  artifactKey: Guid(631f9239758639b48be226d4a7d5906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamGreenEnd.prefab using Guid(631f9239758639b48be226d4a7d5906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a0d324b0d0b204931100938443f90a') in 0.057099 seconds
+  Import took 0.062270 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(99e03e9926aba454db9fd40da7ca4f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(99e03e9926aba454db9fd40da7ca4f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07185cd50289bc856259f5a55ed8b3df') in 0.007001 seconds
-  Import took 0.009284 seconds .
+  Time since last request: 0.000254 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPurpleStart.prefab
+  artifactKey: Guid(70fc113bb2609c544ba484a8da40dae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPurpleStart.prefab using Guid(70fc113bb2609c544ba484a8da40dae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fe151edb4f862d4c20cf7be0912727') in 0.053950 seconds
+  Import took 0.063849 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Material/national-science-foundation-sun-surface-telescope-technology_dezeen_2364_sq-2.gif
-  artifactKey: Guid(dcc808b1fafbcc040892ec81b02c2fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/national-science-foundation-sun-surface-telescope-technology_dezeen_2364_sq-2.gif using Guid(dcc808b1fafbcc040892ec81b02c2fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e290a160f8ca30e4618393a8e8ffc23') in 0.022751 seconds
-  Import took 0.025671 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamGreen.prefab
+  artifactKey: Guid(421e1c2102d58be45ac9ad2b4441cd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamGreen.prefab using Guid(421e1c2102d58be45ac9ad2b4441cd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf907b068b8ba0d835148808d0f4231b') in 0.037998 seconds
+  Import took 0.043040 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.307732 seconds.
-  path: Assets/Scenes/David.unity
-  artifactKey: Guid(18a231dbdd3f4bf4e8e99cb95efcb44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/David.unity using Guid(18a231dbdd3f4bf4e8e99cb95efcb44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0813b563b441915c354f09183811fb') in 0.012092 seconds
-  Import took 0.016057 seconds .
+  Time since last request: 0.000478 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamYellowEnd.prefab
+  artifactKey: Guid(4910da04669ef424c9d560e761e78458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamYellowEnd.prefab using Guid(4910da04669ef424c9d560e761e78458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467aa08864d4e63a5c1f1e3edafb73d2') in 0.063668 seconds
+  Import took 0.081441 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 326.962897 seconds.
-  path: Assets/Material/Proyector CG.png
-  artifactKey: Guid(f4d66f340b5c8e947aa02a97d3824e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Proyector CG.png using Guid(f4d66f340b5c8e947aa02a97d3824e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1dacbc7649445fe1059d72272525ff') in 0.029532 seconds
-  Import took 0.033360 seconds .
+  Time since last request: 0.000279 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPurpleEnd.prefab
+  artifactKey: Guid(fc2e63a27072d054ab10c3ecca3aa3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPurpleEnd.prefab using Guid(fc2e63a27072d054ab10c3ecca3aa3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492d8233130bb6144f477fdf18ce8d57') in 0.045669 seconds
+  Import took 0.061191 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003734 seconds.
-  path: Assets/Material/Proyector CG.png
-  artifactKey: Guid(f4d66f340b5c8e947aa02a97d3824e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Proyector CG.png using Guid(f4d66f340b5c8e947aa02a97d3824e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1dacbc7649445fe1059d72272525ff') in 0.019373 seconds
-  Import took 0.024022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.049661 seconds.
-  path: Assets/Shaders
-  artifactKey: Guid(d625b9b82ea7fe14e82984c0fa4c749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders using Guid(d625b9b82ea7fe14e82984c0fa4c749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472216dbfe808e5e714f3bf3ce3bcfa8') in 0.016342 seconds
-  Import took 0.020523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.287312 seconds.
-  path: Assets/Shaders/Proyector.shader
-  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2d98f2aec0ec2991c17c84b2573c13') in 0.041839 seconds
-  Import took 0.045759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.506125 seconds.
-  path: Assets/Shaders/Proyector.shader
-  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2d98f2aec0ec2991c17c84b2573c13') in 0.009389 seconds
-  Import took 0.017019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.753759 seconds.
-  path: Assets/Shaders/Proyector.mat
-  artifactKey: Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Proyector.mat using Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99db72fd030154105236c73f1ca4795') in 0.030160 seconds
-  Import took 0.033916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.495720 seconds.
-  path: Assets/Effects/Rings/Models/Textures/Erika_Archer_Clothes_diffuse.png
-  artifactKey: Guid(9f30d04ff9ce18b4ba681a988c1c33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Rings/Models/Textures/Erika_Archer_Clothes_diffuse.png using Guid(9f30d04ff9ce18b4ba681a988c1c33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf40b4a6f57d0811360f044423fdd51') in 0.053656 seconds
-  Import took 0.063150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Effects/Rings/Textures/White.png
-  artifactKey: Guid(65c3857167c9336448a6fd0e45e067d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Rings/Textures/White.png using Guid(65c3857167c9336448a6fd0e45e067d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ee034c803875b2a183d52b4b9e3692') in 0.089252 seconds
-  Import took 0.099529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Effects/Rings/Models/Textures/Erika_Archer_Clothes_normal.png
-  artifactKey: Guid(cf175ea2b889eb844b207fb32929e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Rings/Models/Textures/Erika_Archer_Clothes_normal.png using Guid(cf175ea2b889eb844b207fb32929e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba12e94ea6a9f0bb7f6eb603769df40') in 0.061267 seconds
-  Import took 0.065181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Effects/Rings/Models/Textures/FemaleFitA_Body_diffuse.png
-  artifactKey: Guid(bdd7f998013cd8d4c85b473f40793a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Rings/Models/Textures/FemaleFitA_Body_diffuse.png using Guid(bdd7f998013cd8d4c85b473f40793a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c3836698a78841fcdf638ec79f6b8f') in 0.045239 seconds
-  Import took 0.061966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Effects/Rings/Models/Textures/FemaleFitA_StdNM.png
-  artifactKey: Guid(6b6537115eac2cd4ebfffdb6f82cf5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Rings/Models/Textures/FemaleFitA_StdNM.png using Guid(6b6537115eac2cd4ebfffdb6f82cf5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c529ff026b10408abd1294dde6891f') in 0.031957 seconds
-  Import took 0.036775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Effects/Cast/Materials/Trail texture.png
-  artifactKey: Guid(d5233057a511071479fcc42f402d3187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Cast/Materials/Trail texture.png using Guid(d5233057a511071479fcc42f402d3187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0256cbfea5f85f011e48d89be07c1b25') in 0.096675 seconds
-  Import took 0.101784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Effects/Cast/Materials/Particulas 1.png
-  artifactKey: Guid(9d2a52f140abdce4bbbf45b1fadb6ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Cast/Materials/Particulas 1.png using Guid(9d2a52f140abdce4bbbf45b1fadb6ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4886c4b56a19ce0d18e6eee1023ff005') in 0.071744 seconds
-  Import took 0.076202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Effects/Rings/Textures/Line.png
-  artifactKey: Guid(9218a585472f66147862f000328ddb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Rings/Textures/Line.png using Guid(9218a585472f66147862f000328ddb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d950e5006055f55af0abf2ba2ad44c5') in 0.019231 seconds
-  Import took 0.023484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Effects/Cast/Materials/PickUp Circle.png
-  artifactKey: Guid(d40547275168de745a7958d475b5cdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Cast/Materials/PickUp Circle.png using Guid(d40547275168de745a7958d475b5cdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea02b1f5ff0d346983cb41eee007bc2') in 0.072230 seconds
-  Import took 0.076640 seconds .
+  Time since last request: 0.000072 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPurple.prefab
+  artifactKey: Guid(17738fed9dc653546a3da3b453104cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPurple.prefab using Guid(17738fed9dc653546a3da3b453104cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c924a389573b32301991b57930a0bcb5') in 0.044813 seconds
+  Import took 0.051277 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000233 seconds.
-  path: Assets/Effects/Rings/Textures/Point.png
-  artifactKey: Guid(bc1ed2744d23a96418a8fe9b4e1acc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Rings/Textures/Point.png using Guid(bc1ed2744d23a96418a8fe9b4e1acc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109fd043d377c748f58ffb143f9a0651') in 0.042093 seconds
-  Import took 0.045879 seconds .
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamBlueEnd.prefab
+  artifactKey: Guid(59b8686ac2191c145aa7aeb4f3ee4f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamBlueEnd.prefab using Guid(59b8686ac2191c145aa7aeb4f3ee4f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f327c8ede8db37fca1f78ae76da18636') in 0.100510 seconds
+  Import took 0.111328 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Effects/Rings/Textures/LineNormal.png
-  artifactKey: Guid(7e6ff3d06f3cbd84c9b651079dac6360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Rings/Textures/LineNormal.png using Guid(7e6ff3d06f3cbd84c9b651079dac6360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc305ef02f110215b0ef042076e9067') in 0.038141 seconds
-  Import took 0.042808 seconds .
+  Time since last request: 0.000410 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamBlueStart.prefab
+  artifactKey: Guid(864c4fff065664a458869a3f6fe0057b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamBlueStart.prefab using Guid(864c4fff065664a458869a3f6fe0057b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b2e928c999c67667f19f96aab436f1') in 0.047832 seconds
+  Import took 0.052509 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001070 seconds.
-  path: Assets/Effects/Rings/Models/Textures/Erika_Archer_Clothes_diffuse.png
-  artifactKey: Guid(9f30d04ff9ce18b4ba681a988c1c33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Rings/Models/Textures/Erika_Archer_Clothes_diffuse.png using Guid(9f30d04ff9ce18b4ba681a988c1c33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf40b4a6f57d0811360f044423fdd51') in 0.023559 seconds
-  Import took 0.028450 seconds .
+  Time since last request: 0.000367 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPinkEnd.prefab
+  artifactKey: Guid(78b3fbc82488dd94d8ac44349f181abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Beams/Setup/BeamPinkEnd.prefab using Guid(78b3fbc82488dd94d8ac44349f181abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a838d22a996fbe3ea2053b9495444d47') in 0.054323 seconds
+  Import took 0.060992 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.272840 seconds.
-  path: Assets/Shaders/Proyector.mat
-  artifactKey: Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Proyector.mat using Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fb19dd130a0372421e051e2952f208') in 0.059003 seconds
-  Import took 0.063332 seconds .
+  Time since last request: 7.066459 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Barrage
+  artifactKey: Guid(edbc21418a4196f469553848cf508948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Barrage using Guid(edbc21418a4196f469553848cf508948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aef7c10109a302d3d42ba4901622662') in 0.026902 seconds
+  Import took 0.031843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.499355 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Barrage/Nova
+  artifactKey: Guid(30032ec79170fdb478a1903d0114793b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Barrage/Nova using Guid(30032ec79170fdb478a1903d0114793b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4d5436ad9bdbcc437dc6391bd23416') in 0.029028 seconds
+  Import took 0.035164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.907211 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Orbital Beam
+  artifactKey: Guid(f47599d56cec9d54387632aeb33fe795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Orbital Beam using Guid(f47599d56cec9d54387632aeb33fe795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a29e23dc4b8ec4af253284aa6c587e4') in 0.025063 seconds
+  Import took 0.031905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.680567 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Orbital Beam/OrbitalBeamPurple.prefab
+  artifactKey: Guid(f512d511b14b0b440ad8367bb9a30ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Orbital Beam/OrbitalBeamPurple.prefab using Guid(f512d511b14b0b440ad8367bb9a30ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79d3e20308c1234ed196a08a6563ff5') in 0.026704 seconds
+  Import took 0.038584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067664 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Orbital Beam/OrbitalBeamPurple.prefab
+  artifactKey: Guid(f512d511b14b0b440ad8367bb9a30ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Orbital Beam/OrbitalBeamPurple.prefab using Guid(f512d511b14b0b440ad8367bb9a30ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79d3e20308c1234ed196a08a6563ff5') in 0.017081 seconds
+  Import took 0.025044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020538 seconds.
+  path: Assets/Polygon Arsenal/Models/PolyGlowTube.FBX
+  artifactKey: Guid(d4f4c1b520894ff4b9fd2c84d90a9ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Models/PolyGlowTube.FBX using Guid(d4f4c1b520894ff4b9fd2c84d90a9ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfafa112057bac0755a753ac8aa6bc8') in 0.693555 seconds
+  Import took 0.698810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.919801 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Cleave
+  artifactKey: Guid(eed8aedd36eb1264caef770eab6a3eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Cleave using Guid(eed8aedd36eb1264caef770eab6a3eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc7f653c451b00cb0c0414a147ec6fc') in 0.017633 seconds
+  Import took 0.029621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024466 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Cleave
+  artifactKey: Guid(eed8aedd36eb1264caef770eab6a3eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Cleave using Guid(eed8aedd36eb1264caef770eab6a3eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc7f653c451b00cb0c0414a147ec6fc') in 0.030397 seconds
+  Import took 0.047494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.912218 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Cleave/CleaveGeneric.prefab
+  artifactKey: Guid(093c96e014050c34c82900e22bb4c2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Cleave/CleaveGeneric.prefab using Guid(093c96e014050c34c82900e22bb4c2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3bc6b6d50c006801039348ea620b70') in 0.033752 seconds
+  Import took 0.038355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.792344 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Enchant
+  artifactKey: Guid(462e2f5b85b8aab4ca1306b32f5679b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Enchant using Guid(462e2f5b85b8aab4ca1306b32f5679b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098f16f3beb15e7dd60a1ec514b0ffdb') in 0.030855 seconds
+  Import took 0.038375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.476435 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/GroundSlam
+  artifactKey: Guid(4633ab72d6643384ca2c2025f462d0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/GroundSlam using Guid(4633ab72d6643384ca2c2025f462d0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8142fbd69c07a645b5e28edde923e27') in 0.017147 seconds
+  Import took 0.028285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.615880 seconds.
+  path: Assets/Polygon Arsenal/Models/PolyDiamond.FBX
+  artifactKey: Guid(0191065febb0d584d8bc23b85663a44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Models/PolyDiamond.FBX using Guid(0191065febb0d584d8bc23b85663a44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4b3fadc2d12095407565f4cf7a711f') in 0.098973 seconds
+  Import took 0.106866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.582250 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Necromancy
+  artifactKey: Guid(f1d08553247a9444d9e5d31a5f213bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Necromancy using Guid(f1d08553247a9444d9e5d31a5f213bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf9f7790dad0c4c99e09ade617802ee') in 0.014969 seconds
+  Import took 0.026176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.194997 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Buff
+  artifactKey: Guid(0c19eff2b27304f4c953a8ab2b3b6202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Buff using Guid(0c19eff2b27304f4c953a8ab2b3b6202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667f3ce9d462b8e2dae4967d9126bd27') in 0.024350 seconds
+  Import took 0.036294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.427312 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Aura
+  artifactKey: Guid(0fbf3dee1c09a6b4996b7aa9e822eec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Aura using Guid(0fbf3dee1c09a6b4996b7aa9e822eec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76f3aa6bd4c6f71747f4d4c2d871b4e') in 0.026602 seconds
+  Import took 0.031790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.097377 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Aura/ChargeAura
+  artifactKey: Guid(2a20dfdedb27b4742b8a035b668aa257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Aura/ChargeAura using Guid(2a20dfdedb27b4742b8a035b668aa257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8372b535c0c80bc944e3dcf209a5da') in 0.033141 seconds
+  Import took 0.037108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 247.389112 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Aura/ElementalAura
+  artifactKey: Guid(e17b8f071c3e2cc4fa380cb6cf257c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Aura/ElementalAura using Guid(e17b8f071c3e2cc4fa380cb6cf257c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9c8d9895e6bb1d665073bbe4c5e392') in 0.015757 seconds
+  Import took 0.020652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.074720 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Aura/SwirlAura
+  artifactKey: Guid(15ec7a25de3531e47819a0e7d445277c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Aura/SwirlAura using Guid(15ec7a25de3531e47819a0e7d445277c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a1efef6f3c0ea9f8bf56d80a32f66b') in 0.021725 seconds
+  Import took 0.034490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.564886 seconds.
+  path: Assets/Polygon Arsenal/Prefabs/Combat/Aura/ShieldAura
+  artifactKey: Guid(0bf774e562a982b4cabbea0f818b65fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Prefabs/Combat/Aura/ShieldAura using Guid(0bf774e562a982b4cabbea0f818b65fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cb7714d192b62de75b57a06d1ff3ee') in 0.019003 seconds
+  Import took 0.039625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.774326 seconds.
+  path: Assets/Polygon Arsenal/Models/PolyShield01.FBX
+  artifactKey: Guid(1f6d809819756ab48837f7257bcd34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Models/PolyShield01.FBX using Guid(1f6d809819756ab48837f7257bcd34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32dc9d05bddfc3078b44a27def8f08e') in 0.064725 seconds
+  Import took 0.068422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069880 seconds.
+  path: Assets/Polygon Arsenal/Models/PolyShield01.FBX
+  artifactKey: Guid(1f6d809819756ab48837f7257bcd34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Models/PolyShield01.FBX using Guid(1f6d809819756ab48837f7257bcd34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32dc9d05bddfc3078b44a27def8f08e') in 0.086526 seconds
+  Import took 0.100504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.215450 seconds.
+  path: Assets/Polygon Arsenal/Demo/Scenes
+  artifactKey: Guid(1a4c2d109e2c7ca49b6617379583d2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Scenes using Guid(1a4c2d109e2c7ca49b6617379583d2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9442a0d09e8a68548c3513859d390f4') in 0.052121 seconds
+  Import took 0.064118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.069966 seconds.
+  path: Assets/Polygon Arsenal/Demo/Scenes/Combat
+  artifactKey: Guid(a489cf8192d46254ba1227a36436f8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Scenes/Combat using Guid(a489cf8192d46254ba1227a36436f8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3d4b46abe020ce5f83be7c6c9515c3') in 0.021730 seconds
+  Import took 0.035413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.757577 seconds.
+  path: Assets/Polygon Arsenal/Demo/Scenes/- Misc
+  artifactKey: Guid(485b8f71ada0dd649a0383f12332b8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Scenes/- Misc using Guid(485b8f71ada0dd649a0383f12332b8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3ea8e8deb8f624380f775f4e9aa0ec') in 0.034012 seconds
+  Import took 0.048467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.622463 seconds.
+  path: Assets/Polygon Arsenal/Demo/Scenes/- Misc/xPolyLibrary.unity
+  artifactKey: Guid(ff81faf19af0d3b45b70ca3fed210bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Scenes/- Misc/xPolyLibrary.unity using Guid(ff81faf19af0d3b45b70ca3fed210bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d922ec2c869a1ad98bf86ecb5382c0e') in 0.104759 seconds
+  Import took 0.117836 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002026 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.804 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1284 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.2 MB.
+System memory in use after: 142.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1789.
+Total: 7.779400 ms (FindLiveObjects: 0.876000 ms CreateObjectMapping: 0.574500 ms MarkObjects: 3.472700 ms  DeleteObjects: 2.851600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.230892 seconds.
+  path: Assets/Polygon Arsenal/Demo/Scenes/- Misc/xPolyExplosions.unity
+  artifactKey: Guid(d69d74d59c06f5a42baa4ba1d304ffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Scenes/- Misc/xPolyExplosions.unity using Guid(d69d74d59c06f5a42baa4ba1d304ffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c0db82e1f75d79d7240f24cf9f27eb') in 0.073885 seconds
+  Import took 0.078734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.971455 seconds.
+  path: Assets/Polygon Arsenal/Demo/Scenes/- Misc/xPolyColorVariations.unity
+  artifactKey: Guid(fc553d8daac7b78419cb5402985d8305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon Arsenal/Demo/Scenes/- Misc/xPolyColorVariations.unity using Guid(fc553d8daac7b78419cb5402985d8305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e50f7e58dba458af91da0a3ca0b82d') in 0.038481 seconds
+  Import took 0.044931 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.072 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1284 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 142.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1792.
+Total: 5.194400 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.441800 ms MarkObjects: 2.657300 ms  DeleteObjects: 1.810100 ms)
 

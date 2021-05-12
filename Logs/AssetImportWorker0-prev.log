@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10 Home Single Language; OS build 19041.928; Version 2004; 64bit' Language: 'es' Physical Memory: 12218 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Users\hdmos\Documents\_UNITY_\2020.3.2f1\Editor\Unity.exe
+C:\Users\hdmos\Documents\_UNITY_\2020.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,14 +15,14 @@ C:/Users/hdmos/Dropbox/Mi PC (DESKTOP-7S88MDE)/Documents/Teleport-CG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52531
+54446
 Successfully changed project path to: C:/Users/hdmos/Dropbox/Mi PC (DESKTOP-7S88MDE)/Documents/Teleport-CG
 C:/Users/hdmos/Dropbox/Mi PC (DESKTOP-7S88MDE)/Documents/Teleport-CG
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.92 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 35.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
-[Subsystems] Discovering subsystems at path C:/Users/hdmos/Documents/_UNITY_/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/hdmos/Dropbox/Mi PC (DESKTOP-7S88MDE)/Documents/Teleport-CG/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
@@ -32,164 +32,256 @@ Direct3D:
     VRAM:     2010 MB
     Driver:   27.21.14.6172
 Initialize mono
-Mono path[0] = 'C:/Users/hdmos/Documents/_UNITY_/2020.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/hdmos/Documents/_UNITY_/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Users/hdmos/Documents/_UNITY_/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Mono path[0] = 'C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/hdmos/Documents/_UNITY_/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Users/hdmos/Documents/_UNITY_/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003231 seconds.
+Register platform support module: C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/hdmos/Documents/_UNITY_/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003658 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 27.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 30.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.216 seconds
+- Completed reload, in  2.425 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001518 seconds.
+Registered in 0.001443 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\hdmos\Dropbox\Mi PC (DESKTOP-7S88MDE)\Documents\Teleport-CG\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Error: Could not load signature of TMPro.TMP_SpriteAssetImporter:PopulateSpriteTables due to: Could not resolve type with token 01000027 (from typeref, class/assembly TMPro.SpriteAssetUtilities.TexturePacker_JsonArray, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:TMPro.SpriteAssetUtilities.TexturePacker_JsonArray member:(null) signature:<none>
-
-Could not load signature of TMPro.TMP_SpriteAssetImporter:PopulateSpriteTables due to: Could not resolve type with token 01000027 (from typeref, class/assembly TMPro.SpriteAssetUtilities.TexturePacker_JsonArray, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:TMPro.SpriteAssetUtilities.TexturePacker_JsonArray member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll, this assembly can cause crashes in the runtime
-
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.885 seconds
+- Completed reload, in  1.095 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
+Unloading 1276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.3 MB.
+System memory in use after: 64.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1538.
-Total: 4.048600 ms (FindLiveObjects: 0.301500 ms CreateObjectMapping: 0.121700 ms MarkObjects: 3.482800 ms  DeleteObjects: 0.139600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Effects/Cast/Efecto 1 Fase 1.prefab
-  artifactKey: Guid(c57148a48ee28844c914c3ace623b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Cast/Efecto 1 Fase 1.prefab using Guid(c57148a48ee28844c914c3ace623b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff729def9d2 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff729e57b12 (Unity) ResolveArtifactV2
-0x00007ff729e789b2 (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
-0x00007ff728712c71 (Unity) PersistentManager::GetStreamNameSpaceInternal
-0x00007ff7287121b5 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
-0x00007ff7287177fe (Unity) PersistentManager::ReadAndActivateObjectThreaded
-0x00007ff728717f19 (Unity) PersistentManager::ReadObjectThreaded
-0x00007ff728717cca (Unity) PersistentManager::ReadObject
-0x00007ff7280d1b4d (Unity) UnityPropertySheet::AssignDefinedPropertiesTo
-0x00007ff728094b5e (Unity) Material::BuildProperties
-0x00007ff728090d5f (Unity) Material::AcquireSharedMaterialData
-0x00007ff7278389ec (Unity) BaseRenderer::FlattenSharedMaterialData<0>
-0x00007ff726f64439 (Unity) ParticleSystemRenderer::PrepareRenderNodes<0>
-0x00007ff7278ca3ea (Unity) ExtractSceneRenderNodeQueue
-0x00007ff727924ce4 (Unity) CullResults::GetOrCreateSharedRendererScene
-0x00007ff7278f49b1 (Unity) Camera::CustomRender
-0x00007ff72790b49c (Unity) Camera::StandaloneCustomRender
-0x00007ff72790b628 (Unity) Camera::StandaloneRender
-0x00007ff727902986 (Unity) CameraScripting::Render
-0x00007ff728952b64 (Unity) Camera_CUSTOM_Render
-0x000001d17fc35280 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
-0x000001d17fc34773 (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
-0x000001d17fc30d43 (Mono JIT Code) UnityEditor.GameObjectInspector:DoRenderPreview ()
-0x000001d17e9ca1b3 (Mono JIT Code) UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-0x000001d17e9c0d8a (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-0x000001d17e9c0f18 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
-0x00007ff89cb7e640 (mono-2.0-bdwgc) [mini-runtime.c:2812] mono_jit_runtime_invoke 
-0x00007ff89cb02ac2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
-0x00007ff89cb0bb1f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
-0x00007ff7286767b4 (Unity) scripting_method_invoke
-0x00007ff72866f135 (Unity) ScriptingInvocation::Invoke
-0x00007ff729da04d0 (Unity) MonoCreateAssetPreview
-0x00007ff729da4a9e (Unity) WriteAssetPreviewToFile
-0x00007ff729da520c (Unity) WritePreviews
-0x00007ff729d9eefe (Unity) PreviewImporter::GenerateAssetData
-0x00007ff729eb2d59 (Unity) ImportToObjects
-0x00007ff729eb1bc8 (Unity) AssetImportWorker::Import
-0x00007ff729e111cf (Unity) <lambda_77c748ffdfab40a7d87ea62709a69e39>::operator()
-0x00007ff729edc6e2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff729ede840 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff729ee1fce (Unity) asio::io_service::run
-0x00007ff729e58050 (Unity) RunAssetImportWorkerClientV2
-0x00007ff729e580a0 (Unity) RunAssetImporterV2
-0x00007ff7293689e6 (Unity) Application::InitializeProject
-0x00007ff729ce48b2 (Unity) WinMain
-0x00007ff72bb5c916 (Unity) __scrt_common_main_seh
-0x00007ff8f4897034 (KERNEL32) BaseThreadInitThunk
-0x00007ff8f4d62651 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(9d2a52f140abdce4bbbf45b1fadb6ccf) Importer(-1,00000000000000000000000000000000), Assets/Effects/Cast/Materials/Particulas 1.png from editor
-Resuming Guid(9d2a52f140abdce4bbbf45b1fadb6ccf) Importer(-1,00000000000000000000000000000000) -> 4c109e09e34a830cb1c69bcab2c6f668 
-Assertion failed on expression: 'state.state == kUpToDate'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
-
-Assertion failed on expression: 'state.artifactID == result'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
-
-Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetResolveTracker.cpp line 27]
-
-Assertion failed on expression: 'ins.second || ins.first->second == artifactID || (ins.first->second == CircularDependencyArtifactID() && !artifactID.IsValid()) || GetPathFromAssetGuidV2(key.GetGUID()).ends_with(".cs")'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.GameObjectInspector:DoRenderPreview ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetResolveTracker.cpp line 27]
-
- -> (artifact id: '0eed9a4d6ef2f14eabe542bffee8430e') in 88.235275 seconds
-  Import took 88.252229 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1720.
+Total: 2.578800 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.198200 ms  DeleteObjects: 0.093100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000608 seconds.
-  path: Assets/Effects/Cast
-  artifactKey: Guid(bc8ce20de12ce4a41a58a20cba17f8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects/Cast using Guid(bc8ce20de12ce4a41a58a20cba17f8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589a558cb6f880a74c2b290256cff6a9') in 0.015943 seconds
-  Import took 0.019920 seconds .
+  path: Assets/Material/Proyector CG.png
+  artifactKey: Guid(f4d66f340b5c8e947aa02a97d3824e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Proyector CG.png using Guid(f4d66f340b5c8e947aa02a97d3824e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66834e7bfd152f94e171e45d1cbb76e1') in 0.141394 seconds
+  Import took 0.145650 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Scenes/RealDaniel.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/RealDaniel.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa6fcedb57937e7bcd2a23771a910db') in 0.022493 seconds
-  Import took 0.029376 seconds .
+  Time since last request: 107.812107 seconds.
+  path: Assets/Shaders/Proyector.mat
+  artifactKey: Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.mat using Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb84ef4cd2b0c7a510e3172f7d65c956') in 0.107884 seconds
+  Import took 0.112000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.167040 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3635622355e7fdd9023c53c7ddec7c') in 0.011224 seconds
+  Import took 0.015407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006016 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3635622355e7fdd9023c53c7ddec7c') in 0.004636 seconds
+  Import took 0.009627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 502.121963 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8ef86e8b6eb56e9946b5171b210c5e') in 0.041175 seconds
+  Import took 0.050456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.418785 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee1bd6afd16a3b8d64203cbd16ea776') in 0.014275 seconds
+  Import took 0.020007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.165360 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551d343cb902d675ed36de593211c6d4') in 0.038604 seconds
+  Import took 0.189853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.088280 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a57c5dc4842751a4b99a7ae358585c') in 0.016219 seconds
+  Import took 0.021204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000940 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a57c5dc4842751a4b99a7ae358585c') in 0.007955 seconds
+  Import took 0.013412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.197202 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291cafb1da3cbb08e0e94f165aa2fbbd') in 0.081048 seconds
+  Import took 0.095016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.658131 seconds.
+  path: Assets/Material/Proyector CG.png
+  artifactKey: Guid(f4d66f340b5c8e947aa02a97d3824e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Proyector CG.png using Guid(f4d66f340b5c8e947aa02a97d3824e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c18055c99cbb723fe739ed6619e5a4') in 0.071499 seconds
+  Import took 0.075328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.502413 seconds.
+  path: Assets/Shaders/Proyector.mat
+  artifactKey: Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.mat using Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434af4700e8fd836b1eb06c17ba7e06e') in 0.035910 seconds
+  Import took 0.040322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.691271 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b32194696e5148cb103ffd1ec04e26e') in 0.007549 seconds
+  Import took 0.011864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.931412 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84f94453f7577e40f3fe5b81f2ba6d1') in 0.005625 seconds
+  Import took 0.009784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006564 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84f94453f7577e40f3fe5b81f2ba6d1') in 0.008788 seconds
+  Import took 0.013062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 512.106820 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c647cbda0a5f65348321ba5984f034') in 0.010225 seconds
+  Import took 0.014608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.696197 seconds.
+  path: Assets/Material/ProjectorCGFx.png
+  artifactKey: Guid(035ca2705f4b2114da703841d7c5f8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/ProjectorCGFx.png using Guid(035ca2705f4b2114da703841d7c5f8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdb2eecac5787ee474d2b4ccdb4df8b') in 0.048451 seconds
+  Import took 0.052955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.421609 seconds.
+  path: Assets/Material/ProjectorCGFx.png
+  artifactKey: Guid(035ca2705f4b2114da703841d7c5f8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/ProjectorCGFx.png using Guid(035ca2705f4b2114da703841d7c5f8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a043eada9498cb47164f8d63303ce131') in 0.036944 seconds
+  Import took 0.041945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.598776 seconds.
+  path: Assets/Shaders
+  artifactKey: Guid(d625b9b82ea7fe14e82984c0fa4c749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders using Guid(d625b9b82ea7fe14e82984c0fa4c749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5522571f63d45e42b20bd5b9830ec35') in 0.020134 seconds
+  Import took 0.027144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3200.278410 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8325525e4dd8f0f49c31916d3ca99192') in 0.025916 seconds
+  Import took 0.050337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 296.557063 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161e51a7cce8612b7ea6e791ffcc1740') in 0.007512 seconds
+  Import took 0.012833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 717.972374 seconds.
+  path: Assets/Shaders/proy.png
+  artifactKey: Guid(e4739bcdbc96eb14d853fd0d246dd4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/proy.png using Guid(e4739bcdbc96eb14d853fd0d246dd4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493bde377b55945cf6a0f80ff19fb3f5') in 0.054494 seconds
+  Import took 0.059516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.338493 seconds.
+  path: Assets/Shaders/Proyector CG.png
+  artifactKey: Guid(54db325974fc499499e337becc8607c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector CG.png using Guid(54db325974fc499499e337becc8607c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73188783a0269e0ab270790582216d2') in 0.072373 seconds
+  Import took 0.075861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.960388 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f2abe8b68fe1d19dba041f61113759') in 0.008386 seconds
+  Import took 0.017591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.316420 seconds.
+  path: Assets/Shaders/Proyector.shader
+  artifactKey: Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.shader using Guid(0ea42c0465c291543b95b2a4e0546989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5857408377a120931d86787030197c3c') in 0.230298 seconds
+  Import took 0.238578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.333919 seconds.
+  path: Assets/Shaders/Proyector CG.png
+  artifactKey: Guid(54db325974fc499499e337becc8607c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector CG.png using Guid(54db325974fc499499e337becc8607c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269dcbad07b167179b2d029bf279df72') in 0.028514 seconds
+  Import took 0.033718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1189.104160 seconds.
+  path: Assets/Shaders/Proyector.mat
+  artifactKey: Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Proyector.mat using Guid(d308da5815324744886db149e86f07be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d00d3da5c2ae330a38c5d43f106ad66') in 0.246405 seconds
+  Import took 0.252934 seconds .
 
