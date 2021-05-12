@@ -1918,3 +1918,515 @@ Received Import Request.
 Start importing Assets/ThirdParty/Polygon Arsenal/Demo/Materials/PA_Crate01.mat using Guid(e05751f7808f83a4ea0bfe18b9d5cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2368129002ef381d28bf95a340c9b4') in 0.068032 seconds
   Import took 0.083189 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 705.432160 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock03.FBX
+  artifactKey: Guid(0d1a0781f29ea9844b481cafdad7d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock03.FBX using Guid(0d1a0781f29ea9844b481cafdad7d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdefc9d95a963268d6cc69350c44d2d1') in 0.124090 seconds
+  Import took 0.136327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyTorus02.FBX
+  artifactKey: Guid(ff659a9249995b84bbd060d1eb7442cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyTorus02.FBX using Guid(ff659a9249995b84bbd060d1eb7442cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943d397d046631bd6d9e2ee6615f663d') in 0.118433 seconds
+  Import took 0.139374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock03High.FBX
+  artifactKey: Guid(d893690f68609df488e2ec62774c9b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock03High.FBX using Guid(d893690f68609df488e2ec62774c9b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1c59e625bb9a800bc5dec4d42ff9f2') in 0.064623 seconds
+  Import took 0.084886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock03.FBX
+  artifactKey: Guid(0d1a0781f29ea9844b481cafdad7d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock03.FBX using Guid(0d1a0781f29ea9844b481cafdad7d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdefc9d95a963268d6cc69350c44d2d1') in 0.037074 seconds
+  Import took 0.047907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001537 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySword02.FBX
+  artifactKey: Guid(803f66d1d10983c46931d8afb93b1039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySword02.FBX using Guid(803f66d1d10983c46931d8afb93b1039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ea8278e466a1f97413399a0b2dab44') in 0.070890 seconds
+  Import took 0.097660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyTorus.FBX
+  artifactKey: Guid(a7cdf6c0757ee5b478f604fceacaec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyTorus.FBX using Guid(a7cdf6c0757ee5b478f604fceacaec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fbaef33aae765b7a4beedf2308361a') in 0.064660 seconds
+  Import took 0.070025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySword.FBX
+  artifactKey: Guid(655591b30061abd4a88314461d9417b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySword.FBX using Guid(655591b30061abd4a88314461d9417b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5243b444b2d83ef76e100c8180c739cf') in 0.167282 seconds
+  Import took 0.175056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySword03.FBX
+  artifactKey: Guid(e001518e7783c65478eb1d9b274fb43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySword03.FBX using Guid(e001518e7783c65478eb1d9b274fb43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e139cb930ebbe9ed5e417d96abf151') in 0.071374 seconds
+  Import took 0.077278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyVineSpiky.FBX
+  artifactKey: Guid(5d5bc3ad3c3ce9b4eaf3d95fa1caa1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyVineSpiky.FBX using Guid(5d5bc3ad3c3ce9b4eaf3d95fa1caa1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013e69fc1a2c3e312061f735c2733c93') in 0.108911 seconds
+  Import took 0.137451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyVine.FBX
+  artifactKey: Guid(a460ad740e025b2459dd3f303325a027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyVine.FBX using Guid(a460ad740e025b2459dd3f303325a027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b404744bb4a781a12f44bbc9776e7c8c') in 0.049205 seconds
+  Import took 0.054805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyTiltedTube02.FBX
+  artifactKey: Guid(83ca04a3b12196347a978b88ba949d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyTiltedTube02.FBX using Guid(83ca04a3b12196347a978b88ba949d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f284813e6a39c31407ec3e15660a3b91') in 0.066674 seconds
+  Import took 0.074525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyWhirlwind01.FBX
+  artifactKey: Guid(51dc2153d84860f4da6162835ed861fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyWhirlwind01.FBX using Guid(51dc2153d84860f4da6162835ed861fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04daa095261a9283512c4e9905eb24e') in 0.071666 seconds
+  Import took 0.094444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRockDebris.FBX
+  artifactKey: Guid(3bff98a626d28e446b83ee700f147d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRockDebris.FBX using Guid(3bff98a626d28e446b83ee700f147d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1060ddee9f09181c031b58c78d4daf1d') in 0.081239 seconds
+  Import took 0.096685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyVineSpikyAlt.FBX
+  artifactKey: Guid(fb040115fe87a304aa36a016fddda485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyVineSpikyAlt.FBX using Guid(fb040115fe87a304aa36a016fddda485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c43d1c7bb75ade23c50cfd1b038d62e') in 0.109465 seconds
+  Import took 0.124349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyStar03.FBX
+  artifactKey: Guid(cbece788d8ba62549a0ab67fac3d8704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyStar03.FBX using Guid(cbece788d8ba62549a0ab67fac3d8704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e57eb1ba979f0fb06484c733fc9c2f') in 0.041731 seconds
+  Import took 0.050359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyStar01.FBX
+  artifactKey: Guid(0cfd12c0769a6c04491adc3c47c4d7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyStar01.FBX using Guid(0cfd12c0769a6c04491adc3c47c4d7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be15743a096c3205733549fa469d3000') in 0.057120 seconds
+  Import took 0.064219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyStar02.FBX
+  artifactKey: Guid(8cd95242098f6c745a8dabc255eb49db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyStar02.FBX using Guid(8cd95242098f6c745a8dabc255eb49db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f40411416b2945e05b50c625ae7812') in 0.118724 seconds
+  Import took 0.123706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyTorus03.FBX
+  artifactKey: Guid(6ca625a26eb81f447a49c0872f0983c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyTorus03.FBX using Guid(6ca625a26eb81f447a49c0872f0983c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b30e46f605a9cb6cb6b6f6f7143146') in 0.105160 seconds
+  Import took 0.109506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRockCluster.FBX
+  artifactKey: Guid(a52ab0ab16343cd4b96c3fa0f39c7dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRockCluster.FBX using Guid(a52ab0ab16343cd4b96c3fa0f39c7dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3313de197685c845b5dd6ec2ddf62fcc') in 0.140455 seconds
+  Import took 0.166679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.659062 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySphereMegaHalf.FBX
+  artifactKey: Guid(b41f867d6f3aa444999a88093d9111ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySphereMegaHalf.FBX using Guid(b41f867d6f3aa444999a88093d9111ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d05d79e5ce576e7829df65a339a02d') in 0.034264 seconds
+  Import took 0.059151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySphereNormal.FBX
+  artifactKey: Guid(18f8256b07af27c43bffd5746817ba05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySphereNormal.FBX using Guid(18f8256b07af27c43bffd5746817ba05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea58e73af7d37d7b80d6f50b03f9317c') in 0.049527 seconds
+  Import took 0.054391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock02.FBX
+  artifactKey: Guid(f4e8af8475c040c4ab864e5743b5c131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock02.FBX using Guid(f4e8af8475c040c4ab864e5743b5c131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40186ad6bd53fbac0a9c98f4197819e') in 0.104386 seconds
+  Import took 0.108465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullFull.FBX
+  artifactKey: Guid(e9cab8d8e792c704ea37f1e597d16eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullFull.FBX using Guid(e9cab8d8e792c704ea37f1e597d16eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dfd8544c6dbc3f7b300643b6f87b43') in 0.051103 seconds
+  Import took 0.069100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyShield01.FBX
+  artifactKey: Guid(1f6d809819756ab48837f7257bcd34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyShield01.FBX using Guid(1f6d809819756ab48837f7257bcd34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b3ef3459c4fea3477cf2a6d73dad39') in 0.051321 seconds
+  Import took 0.056264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyShield02.FBX
+  artifactKey: Guid(56aeba1999ed71b4f92daba4282b77f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyShield02.FBX using Guid(56aeba1999ed71b4f92daba4282b77f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67b8601bb85d78e50589e595f7c3c46') in 0.064724 seconds
+  Import took 0.072831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRupeeLow.FBX
+  artifactKey: Guid(835dd667717be0f46b51d627b8a85706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRupeeLow.FBX using Guid(835dd667717be0f46b51d627b8a85706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7372157f59e32216448a715f53b919ba') in 0.080511 seconds
+  Import took 0.085312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullJawEvil.FBX
+  artifactKey: Guid(a54784850d3ec5549a1aa5588acfa3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullJawEvil.FBX using Guid(a54784850d3ec5549a1aa5588acfa3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef87e9509f6f66db62eee3b2b8eafe84') in 0.058348 seconds
+  Import took 0.086467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullJaw.FBX
+  artifactKey: Guid(b02b0dda18e590e48a6d44564b5105f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullJaw.FBX using Guid(b02b0dda18e590e48a6d44564b5105f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82adeb7941e0bbcb46b2a7ba98180537') in 0.118407 seconds
+  Import took 0.140427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySharpRock01.FBX
+  artifactKey: Guid(5613f136d05c0c94095685cc26f5f36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySharpRock01.FBX using Guid(5613f136d05c0c94095685cc26f5f36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56a96a44640b19f42b25e26d21c7a78') in 0.097228 seconds
+  Import took 0.102600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCraniumGory.FBX
+  artifactKey: Guid(354b282de639389409832c9da3ed8a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCraniumGory.FBX using Guid(354b282de639389409832c9da3ed8a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef85e1bbf502f58b7cb9101fcab4d3fe') in 0.068898 seconds
+  Import took 0.073565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002785 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRupeeHigh.FBX
+  artifactKey: Guid(7f0f94456b4fe9746a30d81bf2aaf528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRupeeHigh.FBX using Guid(7f0f94456b4fe9746a30d81bf2aaf528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de15a65dcbb6ee6a0742f8070382ce8a') in 0.118339 seconds
+  Import took 0.123842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCraniumBrainy.FBX
+  artifactKey: Guid(25c5e8372aae24c43adae508a06fa933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCraniumBrainy.FBX using Guid(25c5e8372aae24c43adae508a06fa933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f8a38ff572a0fe29a8b3d6da06a90b') in 0.095548 seconds
+  Import took 0.100374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCranium.FBX
+  artifactKey: Guid(626444d3cbb73dd4c9448f6525404f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCranium.FBX using Guid(626444d3cbb73dd4c9448f6525404f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc1e21b24b19f466974ae16bca10fb1') in 0.038444 seconds
+  Import took 0.042779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullBrainy.FBX
+  artifactKey: Guid(aedacde8d6ad6074b846016b768101b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullBrainy.FBX using Guid(aedacde8d6ad6074b846016b768101b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16fc0e6c228f606661cd8c2ea2f0201') in 0.106246 seconds
+  Import took 0.130440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyShield04.FBX
+  artifactKey: Guid(31f5d9e81aab2b04dab886d66025d1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyShield04.FBX using Guid(31f5d9e81aab2b04dab886d66025d1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e03d178972262c26b9b5b6ca16c438a') in 0.083442 seconds
+  Import took 0.105808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullOpenMouth.FBX
+  artifactKey: Guid(bb3332a6103133448bbc75ed1a774383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullOpenMouth.FBX using Guid(bb3332a6103133448bbc75ed1a774383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823b713a66cc15b04dab93353488ffe1') in 0.080000 seconds
+  Import took 0.085756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000889 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyShuriken.FBX
+  artifactKey: Guid(2fa5d623418d8c2498873aa7f677ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyShuriken.FBX using Guid(2fa5d623418d8c2498873aa7f677ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098a00711b351f77f24d70cb8af7871f') in 0.078171 seconds
+  Import took 0.098667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCheapCranium.FBX
+  artifactKey: Guid(cdfcdbf2acda5544180999aa28962a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCheapCranium.FBX using Guid(cdfcdbf2acda5544180999aa28962a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b37f5c1edcf97e39000206dd0c24661') in 0.076513 seconds
+  Import took 0.092859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCheap.FBX
+  artifactKey: Guid(53e3f58e62ea13645a0bd8b6f31ed586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCheap.FBX using Guid(53e3f58e62ea13645a0bd8b6f31ed586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a2abba1e600c73961cd123ab3a7ab9') in 0.114445 seconds
+  Import took 0.120445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyShield03.FBX
+  artifactKey: Guid(c9805f3456f43a74291476c95be1f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyShield03.FBX using Guid(c9805f3456f43a74291476c95be1f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5f6e65b8dded80867cdc5dc8746427') in 0.079273 seconds
+  Import took 0.088786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRockCluster04.FBX
+  artifactKey: Guid(559881a0eaeedf04b972475a2fcb4602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRockCluster04.FBX using Guid(559881a0eaeedf04b972475a2fcb4602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17965fb67cfec116dba621e4f7f900b') in 0.087039 seconds
+  Import took 0.093317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCraniumEvil.FBX
+  artifactKey: Guid(a484c699096b6a646beff4fe0010d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullCraniumEvil.FBX using Guid(a484c699096b6a646beff4fe0010d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfe21e5d75b03f07c2bff346dc39ce5') in 0.090043 seconds
+  Import took 0.108563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRocket.FBX
+  artifactKey: Guid(7621d59b18610634d9404fbb6624bbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRocket.FBX using Guid(7621d59b18610634d9404fbb6624bbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67c5e5b6248767df3d90c3f4a43a50a') in 0.072452 seconds
+  Import took 0.076962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerRandom.FBX
+  artifactKey: Guid(450f8386e3a12a249ad7205d84202bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerRandom.FBX using Guid(450f8386e3a12a249ad7205d84202bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d7226104cd4fce59c83b8c22126bfd') in 0.083538 seconds
+  Import took 0.105791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRock02.FBX
+  artifactKey: Guid(cd14a952098267f44892c49b2bbae732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRock02.FBX using Guid(cd14a952098267f44892c49b2bbae732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31b95a1e569943342fef61948e9c690') in 0.070482 seconds
+  Import took 0.075561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRock04.FBX
+  artifactKey: Guid(b8a3e71166ccce145a88ad4dc067f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRock04.FBX using Guid(b8a3e71166ccce145a88ad4dc067f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a3449d6598eda5171075222fbc83e2') in 0.062561 seconds
+  Import took 0.066346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRibGory01.FBX
+  artifactKey: Guid(03c1d734f802ed34bb79fb5efd7f9536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRibGory01.FBX using Guid(03c1d734f802ed34bb79fb5efd7f9536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c763e88e4cb3d564ac58113c86f2316') in 0.086999 seconds
+  Import took 0.091524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRock03.FBX
+  artifactKey: Guid(6287669357b542741ba0a137c03b0cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRock03.FBX using Guid(6287669357b542741ba0a137c03b0cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f8bc1e9ea5b39d86ad82f53e4861bd') in 0.080696 seconds
+  Import took 0.087332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRibGory02.FBX
+  artifactKey: Guid(ceaa8962c09b8f14eba6e25f6750ce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRibGory02.FBX using Guid(ceaa8962c09b8f14eba6e25f6750ce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465b9bb5332e620e32f057cb79252e86') in 0.091939 seconds
+  Import took 0.096011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerHeart.FBX
+  artifactKey: Guid(92fbbc29a9338ce4ea0bee68066dcc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerHeart.FBX using Guid(92fbbc29a9338ce4ea0bee68066dcc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4040eaf942c534bc48c01d4fa5c0f5ab') in 0.076002 seconds
+  Import took 0.081720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRockCluster02.FBX
+  artifactKey: Guid(2b30376b39fd8ec498b2e558b34b8ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRockCluster02.FBX using Guid(2b30376b39fd8ec498b2e558b34b8ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0af9ead986a5a5df309aa9b8b5f7bdc') in 0.117272 seconds
+  Import took 0.131712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerShield.FBX
+  artifactKey: Guid(0a15b3940a879204ebc5211486b66dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerShield.FBX using Guid(0a15b3940a879204ebc5211486b66dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5295972347901f62389fa8502a9fc699') in 0.072540 seconds
+  Import took 0.080254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullFullEvil.FBX
+  artifactKey: Guid(0805bfbac33407c419aec214672d4807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullFullEvil.FBX using Guid(0805bfbac33407c419aec214672d4807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6302f6a4f0a73e3d80496884007649e') in 0.085396 seconds
+  Import took 0.117701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerLightning.FBX
+  artifactKey: Guid(1194f5149b5070f4ebb41940d218c26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerLightning.FBX using Guid(1194f5149b5070f4ebb41940d218c26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b90796eeba0d5bf83b187f0d28cebbe') in 0.050173 seconds
+  Import took 0.059307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRock01.FBX
+  artifactKey: Guid(63950c8ea96727340a59393ea0447c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRock01.FBX using Guid(63950c8ea96727340a59393ea0447c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fa669c4b0a8745a7d1412e6b68e7fb') in 0.133054 seconds
+  Import took 0.141363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerHealth.FBX
+  artifactKey: Guid(76f9a877413bf5945b4629e12ef96871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerHealth.FBX using Guid(76f9a877413bf5945b4629e12ef96871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe74b140128ae5378b508fce6fa6ee5') in 0.079247 seconds
+  Import took 0.084658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock02High.FBX
+  artifactKey: Guid(1306d634e96dae84ab1ede3ee9472b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock02High.FBX using Guid(1306d634e96dae84ab1ede3ee9472b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339143d6d758ac508ca5fee8ab54d054') in 0.078829 seconds
+  Import took 0.083754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySphereMega2.FBX
+  artifactKey: Guid(698987019c4689a41b38383761d543c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySphereMega2.FBX using Guid(698987019c4689a41b38383761d543c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a86408851e4c4609a400f433a53cce') in 0.049657 seconds
+  Import took 0.058225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySkullFullGory.FBX
+  artifactKey: Guid(10f32748e869d414db13ea3abc7cc42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySkullFullGory.FBX using Guid(10f32748e869d414db13ea3abc7cc42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd653486ac71e3858752dfc4c69abfc86') in 0.112485 seconds
+  Import took 0.117219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerSpeed.FBX
+  artifactKey: Guid(a9af9d349cf53b94894344bfaa3c5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyPowerSpeed.FBX using Guid(a9af9d349cf53b94894344bfaa3c5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac049acf770ce7cd5b53b062f7d7e8c') in 0.109607 seconds
+  Import took 0.115571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRocket2.FBX
+  artifactKey: Guid(35cca0486f82b20478afaeb140730f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRocket2.FBX using Guid(35cca0486f82b20478afaeb140730f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f15e9124b8958cfa41e70ec447e59b1') in 0.189278 seconds
+  Import took 0.195726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001233 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock01High.FBX
+  artifactKey: Guid(6a6fd2388e8784a49bce70c0775b262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock01High.FBX using Guid(6a6fd2388e8784a49bce70c0775b262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de23bc5308e4a2242dcf1a00a1fc0b88') in 0.062363 seconds
+  Import took 0.068320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRockCluster.FBX
+  artifactKey: Guid(c86ecf6e8c629cc4b8e927b492d3a986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolyRoundRockCluster.FBX using Guid(c86ecf6e8c629cc4b8e927b492d3a986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf432690f4f5a522dbe1169b0d065613') in 0.063155 seconds
+  Import took 0.084583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock01.FBX
+  artifactKey: Guid(0db1f9049bbd72a49a9c36a3e14695ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Polygon Arsenal/Models/PolySquareRock01.FBX using Guid(0db1f9049bbd72a49a9c36a3e14695ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0d793800b55d633475d6e5f8a7a741') in 0.073977 seconds
+  Import took 0.079911 seconds .
+
