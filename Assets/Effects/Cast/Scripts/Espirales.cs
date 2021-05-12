@@ -24,7 +24,7 @@ public class Espirales : MonoBehaviour
 
         float x = r * Mathf.Cos(w * t);
         float z = r * Mathf.Sin(w * t);
-        Vector3 pos = new Vector3(x, y, z);
+        Vector3 pos = new Vector3(x , y+1, z);
         transform.localPosition = pos;
 
         if(ps.isStopped)
