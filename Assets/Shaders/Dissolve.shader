@@ -9,6 +9,7 @@ Shader "Unlit/DissolveEffectShader"
 		[MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
 		_EdgeColour1 ("Edge colour 1", Color) = (1.0, 1.0, 1.0, 1.0)
 		_EdgeColour2 ("Edge colour 2", Color) = (1.0, 1.0, 1.0, 1.0)
+		_Color ("Color", Color) = (1.0, 1.0, 1.0, 1.0)
 		_Level ("Dissolution level", Range (0.0, 1.0)) = 0.1
 		_Edges ("Edge width", Range (0.0, 1.0)) = 0.1
 		//_Factor ("Channel Change Factor", Range (0.0, 1.0)) = 0.1
@@ -50,6 +51,7 @@ Shader "Unlit/DissolveEffectShader"
 			sampler2D _NoiseTex;
 			float4 _EdgeColour1;
 			float4 _EdgeColour2;
+			float4 _Color;
 			float _Level;
 			float _Edges;
 			//float _Factor;
@@ -72,7 +74,7 @@ Shader "Unlit/DissolveEffectShader"
 			{
 				// sample the texture
 				float cutout = tex2D(_NoiseTex, i.uv).r;
-				fixed4 col = tex2D(_MainTex, i.uv);
+				fixed4 col = tex2D(_MainTex, i.uv)*_Color;
 
 
 				//col += lerp(col.r,col.g, _Factor);
