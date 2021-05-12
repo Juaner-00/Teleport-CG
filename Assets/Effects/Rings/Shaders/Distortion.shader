@@ -54,7 +54,6 @@ Shader "Custom/Distortion/DistortingGrabPass"
                 i.grabPos.x += _Intensity * mask;
                 // i.grabPos.x +=  lerp(i.uv_Mask, mask.x, _Intensity);
 
-                // i.grabPos.x += sin((i.grabPos.y) * _Intensity);
                 half4 color = tex2Dproj(_GrabTexture, UNITY_PROJ_COORD(i.grabPos));
                 // return lerp(originalColor, color, mask);
                 return color;
