@@ -9611,7 +9611,7 @@ ParticleSystemRenderer:
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
-  m_VertexStreams: 0001030409
+  m_VertexStreams: 00030409
   m_Mesh: {fileID: -2252909918924021680, guid: acdc7019f67816b48ae8555a2589de4c, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
