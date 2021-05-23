@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Polygon Arsenal.meta
 guid: 2bc74b4579a547f40b8c05948e10ea78
 folderAsset: yes
 DefaultImporter:
+=======
+guid: fe94cf48ce8a3034683eb9907563ad3f
+NativeFormatImporter:
+>>>>>>> master:Assets/Effects/Rings/Materials/Dust.mat.meta
   externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
