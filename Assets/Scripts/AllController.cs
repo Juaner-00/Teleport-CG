@@ -4,18 +4,30 @@ using UnityEngine;
 
 public class AllController : MonoBehaviour
 {
-    [SerializeField]
-    float speed;
 
+    float speed;
+    [SerializeField]
+    float baseSpeed, baseSize;
+    float t, duracion;
     ParticleSystem[] ps;
     ParticleSystem.MainModule mainP;
+    ParticleSystem.ColorOverLifetimeModule colorP;
+    ParticleSystem.ShapeModule shapeP;
+    ParticleSystem.TrailModule trailP;
+    ParticleSystem.EmissionModule emissionP;
+    ParticleSystem.VelocityOverLifetimeModule velP;
     [SerializeField]
     GameObject disolver;
     [SerializeField]
-    ParticleSystem fireRing;
+    ParticleSystem fireRing, trailParticle;
     [SerializeField]
-    Gradient gradient;
+    Gradient gradient, gradient2;
+    [SerializeField]
+    AnimationCurve curveSpeed;
+    [SerializeField]
+    GameObject[] gObject;
 
+    int click = 0;
     ProjectorRotation projectorR;
 
 
@@ -24,20 +36,60 @@ public class AllController : MonoBehaviour
     {
         projectorR = GetComponentInChildren<ProjectorRotation>();
         ps = GetComponentsInChildren<ParticleSystem>();
-        foreach(ParticleSystem p in ps)
+        trailP = trailParticle.trails;
+        foreach (GameObject gO in gObject)
         {
-            mainP = p.main;
-            mainP.simulationSpeed = speed;
+            gO.transform.localScale = new Vector3(gO.transform.localScale.x * baseSize, gO.transform.localScale.y, gO.transform.localScale.z * baseSize);
         }
-        projectorR.dissolveDuration = projectorR.dissolveDuration / speed;
+        foreach (ParticleSystem p in ps)
+        {
+            velP = p.velocityOverLifetime;
+            emissionP = p.emission;
+            shapeP = p.shape;
+            mainP = p.main;
+            colorP = p.colorOverLifetime;
+            colorP.color = gradient;
+            mainP.startSizeMultiplier *= baseSize;
+            shapeP.radius *= baseSize;
+            emissionP.rateOverTimeMultiplier *= baseSize;
+            velP.speedModifierMultiplier *= baseSize;
+        }
+        //projectorR.dissolveDuration = projectorR.dissolveDuration / speed;
+        trailP.colorOverLifetime = gradient;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (fireRing.isStopped)
+        Debug.Log(mainP.simulationSpeed);
+        if (click == 1)
+        {
+            t += Time.deltaTime / 18;
+        }
+        foreach (ParticleSystem p in ps)
+        {
+            mainP = p.main;
+            mainP.simulationSpeed = baseSpeed * (curveSpeed.Evaluate(t));
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            click = 1;
+            foreach (ParticleSystem p in ps)
+            {
+                p.Play();
+            }
+
+        }
+        if (fireRing.isStopped && click == 1)
         {
             disolver.SetActive(true);
+            click = 0;
         }
+    }
+    void ClickZero()
+    {
+        click = 0;
     }
 }
