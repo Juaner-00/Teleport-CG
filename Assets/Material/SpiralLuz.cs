@@ -27,7 +27,7 @@ public class SpiralLuz : MonoBehaviour
 
         if (state == 0)
         {
-            rnd = Random.Range(4, 9);
+            rnd = Random.Range(1, 9);
             toInicial = rnd;
             state = 1;
             tiempoY = 0;
