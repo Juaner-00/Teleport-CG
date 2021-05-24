@@ -21,8 +21,8 @@ public class BloomEffect : MonoBehaviour {
 	[Range(0, 10)]
 	public float threshold = 1;
 
-	//[Range(0, 1)]
-	 float softThreshold = 0.5f;
+	[Range(0, 1)]
+	 public float softThreshold = 0.5f;
 
 	public bool debug;
 

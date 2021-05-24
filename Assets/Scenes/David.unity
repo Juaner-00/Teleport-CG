@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9ae6579ec5641842aba63cf11d40427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  factor: 0.687
+  factor: 0.192
 --- !u!114 &289244106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,9 +232,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloomShader: {fileID: 4800000, guid: 926e8db920ab84661b115e2bdbc8199b, type: 3}
-  intensity: 3.01
-  iterations: 15
-  threshold: 0.42
+  intensity: 2.2
+  iterations: 3
+  threshold: 0.44
+  softThreshold: 0.217
   debug: 0
 --- !u!1 &866403509
 GameObject:
@@ -14918,7 +14919,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c0b627ba75f67794db572ebf5d5e5bc8, type: 2}
+  - {fileID: 2100000, guid: 632d05ea5c8a37f4091a8bd790d8d594, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14997,4 +14998,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  color1: {r: 1, g: 1, b: 1, a: 0}
+  aparition: 0
   dissolveDuration: 4
