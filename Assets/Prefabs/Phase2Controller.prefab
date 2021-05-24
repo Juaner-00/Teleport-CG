@@ -4799,6 +4799,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   system: {fileID: 3587823618325122779}
+  dust: {fileID: 3587823617086870130}
+  dustParticles: {fileID: 3587823618571562696}
+  dustAfter: {fileID: 3587823617865754097}
+  debris: {fileID: 3587823618714601095}
   image: {fileID: 3587823617588516375}
   alphaCurve:
     serializedVersion: 2
@@ -5055,7 +5059,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3587823618325122778}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &3587823617865754097
 ParticleSystem:
@@ -9901,8 +9905,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3587823617086870133}
-  - {fileID: 3587823617865754111}
   - {fileID: 3587823618571562806}
+  - {fileID: 3587823617865754111}
   - {fileID: 3587823618714601093}
   - {fileID: 3587823617994528369}
   - {fileID: 3587823617655259984}
@@ -10943,7 +10947,7 @@ ParticleSystem:
           inWeight: 0.3333661
           outWeight: 0.029660111
         - serializedVersion: 3
-          time: 0.6315545
+          time: 0.6
           value: 0.3
           inSlope: 0.22530553
           outSlope: 0
@@ -14764,7 +14768,7 @@ GameObject:
   - component: {fileID: 3587823618571562696}
   - component: {fileID: 3587823618571562697}
   m_Layer: 0
-  m_Name: Debries
+  m_Name: DustParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14782,7 +14786,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3587823618325122778}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &3587823618571562696
 ParticleSystem:
@@ -19581,7 +19585,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
