@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sound.meta
 guid: 217438c379cea924a9beb472eeade6df
+=======
+guid: d4b617bc130888f44b49647a52bdb5f8
+>>>>>>> master:Assets/PolygonSciFiSpace.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

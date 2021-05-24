@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class UIController : MonoBehaviour
 {
-    [SerializeField]
-    TMP_Dropdown colorDropdown;
+    [SerializeField] Toggle effect1Toggle;
+    [SerializeField] Toggle effect2Toggle;
+    [SerializeField] Slider sizeSlider;
+    [SerializeField] Slider speedSlider;
+    [SerializeField] TMP_Dropdown colorDropdown;
 
     GameObject panel;
 
@@ -23,12 +27,12 @@ public class UIController : MonoBehaviour
 
     private void OnEnable()
     {
-        Phase2Controller.OnPhase2Finised += OpenUI;
+        AllController.OnEffectFinished += OpenUI;
     }
 
     private void OnDisable()
     {
-        Phase2Controller.OnPhase2Finised -= OpenUI;
+        AllController.OnEffectFinished -= OpenUI;
     }
 
     void OpenUI()
@@ -44,7 +48,7 @@ public class UIController : MonoBehaviour
     public void StartEffect()
     {
         CloseUI();
-        Phase2Controller.Instance.Activate();
+        AllController.Instance.Activate(effect1Toggle.isOn, effect2Toggle.isOn, sizeSlider.value, speedSlider.value, colorDropdown.value);
     }
 
 }
