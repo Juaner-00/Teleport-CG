@@ -6,6 +6,7 @@ public class NoiseChage : MonoBehaviour
 {
     ParticleSystem particle;
     ParticleSystem.NoiseModule pNoise;
+    ParticleSystem.MainModule pMain;
 
     [SerializeField]
     float initialS, finalS;
@@ -15,7 +16,8 @@ public class NoiseChage : MonoBehaviour
     {
         particle = GetComponent<ParticleSystem>();
         pNoise = particle.noise;
-
+        pMain = particle.main;
+        pMain.startDelay = delay;
 
     }
 
