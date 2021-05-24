@@ -6,6 +6,10 @@ using UnityEngine.UI;
 public class Phase2Controller : MonoBehaviour
 {
     [SerializeField] ParticleSystem system;
+    [SerializeField] ParticleSystem dust;
+    [SerializeField] ParticleSystem dustParticles;
+    [SerializeField] ParticleSystem dustAfter;
+    [SerializeField] ParticleSystem debris;
     [SerializeField] Image image;
     [SerializeField] AnimationCurve alphaCurve;
     [SerializeField] float duration;
@@ -20,6 +24,20 @@ public class Phase2Controller : MonoBehaviour
     {
         main = system.main;
         main.startLifetime = duration;
+
+        main = dust.main;
+        main.duration = 0.7f * duration;
+
+        main = dustParticles.main;
+        main.duration = 0.4f * duration;
+
+        main = dustAfter.main;
+        main.startDelay = 0.7f * duration;
+        main.duration = 0.6f * duration;
+
+        main = debris.main;
+        main.startDelay = 0.9f * duration;
+
         inicialColor = image.color;
     }
 
