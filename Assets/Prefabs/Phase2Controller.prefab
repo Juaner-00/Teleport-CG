@@ -4798,7 +4798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02cd71f49838b6542a96011c2fb0e29c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  system: {fileID: 3587823618325122779}
+  mainSystem: {fileID: 3587823618325122779}
   dust: {fileID: 3587823617086870130}
   dustParticles: {fileID: 3587823618571562696}
   dustAfter: {fileID: 3587823617865754097}

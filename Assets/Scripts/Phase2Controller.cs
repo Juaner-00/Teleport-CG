@@ -1,11 +1,11 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Phase2Controller : MonoBehaviour
 {
-    [SerializeField] ParticleSystem system;
+    [SerializeField] ParticleSystem mainSystem;
     [SerializeField] ParticleSystem dust;
     [SerializeField] ParticleSystem dustParticles;
     [SerializeField] ParticleSystem dustAfter;
@@ -20,9 +20,25 @@ public class Phase2Controller : MonoBehaviour
 
     ParticleSystem.MainModule main;
 
+    ParticleSystem[] systems;
+
+    public static Action OnPhase2Finised;
+
+    bool hasFinised;
+
+
+    private void Awake()
+    {
+        if (Instance)
+            Destroy(gameObject);
+        Instance = this;
+
+        systems = mainSystem.GetComponentsInChildren<ParticleSystem>();
+    }
+
     private void Start()
     {
-        main = system.main;
+        main = mainSystem.main;
         main.startLifetime = duration;
 
         main = dust.main;
@@ -39,19 +55,47 @@ public class Phase2Controller : MonoBehaviour
         main.startDelay = 0.9f * duration;
 
         inicialColor = image.color;
+
+        hasFinised = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!system.isPlaying && Input.GetButton("Fire1"))
+        if (!IsPlaying && !hasFinised)
         {
-            system.Play();
-            t = 0;
+            hasFinised = true;
+            OnPhase2Finised?.Invoke();
         }
 
-        image.color = new Color(inicialColor.r, inicialColor.g, inicialColor.b, alphaCurve.Evaluate(t));
-        t += Time.deltaTime / duration;
-        t = Mathf.Clamp(t, 0, duration);
+        if (IsPlaying)
+        {
+            image.color = new Color(inicialColor.r, inicialColor.g, inicialColor.b, alphaCurve.Evaluate(t));
+            t += Time.deltaTime / duration;
+            t = Mathf.Clamp(t, 0, duration);
+        }
     }
+
+    public void Activate()
+    {
+        mainSystem.Play();
+        t = 0;
+        hasFinised = false;
+    }
+
+
+    bool IsPlaying
+    {
+        get
+        {
+            foreach (ParticleSystem p in systems)
+            {
+                if (p.isPlaying)
+                    return true;
+            }
+            return false;
+        }
+    }
+
+    public static Phase2Controller Instance { get; private set; }
 }
