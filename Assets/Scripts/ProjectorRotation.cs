@@ -5,25 +5,23 @@ using UnityEngine;
 
 public class ProjectorRotation : MonoBehaviour
 {
-
-    float rotSpeed = 1f;
     [SerializeField] private AnimationCurve rotationSpeed;
+    [SerializeField] Color color1;
+    [SerializeField] float aparition;
+    [SerializeField] float dissolveDuration;
+
     private float _time;
-    public float dissolveDuration;
-    [SerializeField]
-    float aparition;
+    float rotSpeed = 1f;
 
     //[SerializeField]
     [Range(0, 1)] private float slider;
-    [SerializeField]
-    Color color1;
 
     private Renderer mat;
-    // Start is called before the first frame update
+
+    public float DissolveDuration { get => dissolveDuration; set => dissolveDuration = value; }
+
     void Start()
     {
-        print("color1.a");
-
         mat = GetComponent<Renderer>();
         color1 = mat.material.GetColor("_Color");
     }
@@ -36,7 +34,5 @@ public class ProjectorRotation : MonoBehaviour
         color1.a = Mathf.Lerp(0, 1, _time / aparition < 1 ? _time / aparition : 1);
         mat.material.SetFloat("_Level", slider + _time / dissolveDuration);
         mat.material.SetColor("_Color", color1);
-
-
     }
 }
