@@ -1,47 +1,77 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AllController : MonoBehaviour
 {
+    [SerializeField] float baseSpeed, baseSize, effect2Delay;
+    [SerializeField] GameObject disolver;
+    [SerializeField] ParticleSystem fireRing, trailParticle;
+    [SerializeField] ProjectorRotation projectorR;
+    [SerializeField] Gradient gradient1, gradient2;
+    [SerializeField] AnimationCurve curveSpeed;
+    [SerializeField] Image flashImage;
+    [SerializeField] AnimationCurve flashCurve;
+    [SerializeField] GameObject[] gObject;
 
-    float speed;
-    [SerializeField]
-    float baseSpeed, baseSize;
-    float t, duracion;
-    ParticleSystem[] ps;
+    ParticleSystem[] allParticles;
+    ParticleSystem[] effect1Particles;
+    ParticleSystem[] effect2Particles;
     ParticleSystem.MainModule mainP;
     ParticleSystem.ColorOverLifetimeModule colorP;
     ParticleSystem.ShapeModule shapeP;
     ParticleSystem.TrailModule trailP;
     ParticleSystem.EmissionModule emissionP;
     ParticleSystem.VelocityOverLifetimeModule velP;
-    [SerializeField]
-    GameObject disolver;
-    [SerializeField]
-    ParticleSystem fireRing, trailParticle;
-    [SerializeField]
-    Gradient gradient, gradient2;
-    [SerializeField]
-    AnimationCurve curveSpeed;
-    [SerializeField]
-    GameObject[] gObject;
 
-    int click = 0;
-    ProjectorRotation projectorR;
+    public static Action OnEffectFinished;
 
+    float[] delays;
+    int lenght;
 
-    // Start is called before the first frame update
-    void Start()
+    float t;
+    Gradient gradient;
+
+    bool hasFinised;
+    bool effect1Active;
+    bool effect2Active;
+
+    private void Awake()
     {
-        projectorR = GetComponentInChildren<ProjectorRotation>();
-        ps = GetComponentsInChildren<ParticleSystem>();
+        if (Instance)
+            Destroy(gameObject);
+        Instance = this;
+
+        allParticles = GetComponentsInChildren<ParticleSystem>();
+
+        effect1Particles = transform.GetChild(0).GetComponentsInChildren<ParticleSystem>();
+        effect2Particles = transform.GetChild(1).GetComponentsInChildren<ParticleSystem>();
+    }
+
+    private void Start()
+    {
+        hasFinised = true;
+
+        lenght = effect2Particles.Length;
+        delays = new float[lenght];
+        for (int i = 0; i < lenght; i++)
+        {
+            mainP = effect2Particles[i].main;
+            delays[i] = mainP.startDelay.Evaluate(0);
+        }
+    }
+
+    void SetVariables()
+    {
         trailP = trailParticle.trails;
+
         foreach (GameObject gO in gObject)
         {
             gO.transform.localScale = new Vector3(gO.transform.localScale.x * baseSize, gO.transform.localScale.y, gO.transform.localScale.z * baseSize);
         }
-        foreach (ParticleSystem p in ps)
+
+        foreach (ParticleSystem p in allParticles)
         {
             velP = p.velocityOverLifetime;
             emissionP = p.emission;
@@ -54,42 +84,126 @@ public class AllController : MonoBehaviour
             emissionP.rateOverTimeMultiplier *= baseSize;
             velP.speedModifierMultiplier *= baseSize;
         }
-        //projectorR.dissolveDuration = projectorR.dissolveDuration / speed;
+
+        if (effect1Active)
+            for (int i = 0; i < lenght; i++)
+            {
+                mainP = effect2Particles[i].main;
+                mainP.startDelay = new ParticleSystem.MinMaxCurve(delays[i] + effect2Delay);
+            }
+
+        projectorR.DissolveDuration = projectorR.DissolveDuration / baseSpeed;
         trailP.colorOverLifetime = gradient;
 
+        hasFinised = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(mainP.simulationSpeed);
-        if (click == 1)
-        {
-            t += Time.deltaTime / 18;
-        }
-        foreach (ParticleSystem p in ps)
+        if (!hasFinised)
+            t += Time.deltaTime / 25 * baseSpeed;
+
+        foreach (ParticleSystem p in allParticles)
         {
             mainP = p.main;
             mainP.simulationSpeed = baseSpeed * (curveSpeed.Evaluate(t));
         }
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            click = 1;
-            foreach (ParticleSystem p in ps)
+        if (fireRing.isStopped && !hasFinised)
+            disolver.SetActive(true);
+
+        if (effect2Active)
+            if (!IsEffect2Playing && !hasFinised)
             {
-                p.Play();
+                hasFinised = true;
+                OnEffectFinished?.Invoke();
             }
 
-        }
-        if (fireRing.isStopped && click == 1)
-        {
-            disolver.SetActive(true);
-            click = 0;
-        }
+        if (effect1Active && !effect2Active)
+            if (!IsEffect1Playing && !hasFinised)
+            {
+                hasFinised = true;
+                OnEffectFinished?.Invoke();
+            }
+
+        // if (IsEffect2Playing && !hasFinised)
+        flashImage.color = new Color(flashImage.color.r, flashImage.color.g, flashImage.color.b, flashCurve.Evaluate(t));
+
     }
-    void ClickZero()
+
+    public void Activate(bool ef1, bool ef2, float size, float speed, int color)
     {
-        click = 0;
+        switch (color)
+        {
+            case 1:
+                gradient = gradient1;
+                break;
+            case 0:
+                gradient = gradient2;
+                break;
+        }
+
+        baseSize = size;
+        baseSpeed = speed;
+
+        effect1Active = ef1;
+        effect2Active = ef2;
+
+        SetVariables();
+
+        if (effect2Active && !effect1Active)
+            t = effect2Delay / 25 * baseSpeed;
+        else
+            t = 0;
+
+        if (effect1Active)
+            foreach (var particle in effect1Particles)
+                particle.Play();
+
+        if (effect2Active)
+            foreach (var particle in effect2Particles)
+                particle.Play();
+
+        hasFinised = false;
     }
+
+    bool IsPlaying
+    {
+        get
+        {
+            foreach (ParticleSystem p in allParticles)
+                if (p.isPlaying)
+                    return true;
+
+            return false;
+        }
+    }
+
+    bool IsEffect1Playing
+    {
+        get
+        {
+            foreach (ParticleSystem p in effect1Particles)
+
+                if (p.isPlaying)
+                    return true;
+
+            return false;
+        }
+    }
+    bool IsEffect2Playing
+    {
+        get
+        {
+            foreach (ParticleSystem p in effect2Particles)
+
+                if (p.isPlaying)
+                    return true;
+
+            return false;
+        }
+    }
+
+    public static AllController Instance { get; private set; }
 }

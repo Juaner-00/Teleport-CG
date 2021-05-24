@@ -8,32 +8,23 @@ public class Espirales : MonoBehaviour
     [SerializeField] float w, velY;
     [SerializeField] ParticleSystem ps;
     float t = 0;
-    
-
 
     // Update is called once per frame
     void Update()
     {
-
-        w += Time.deltaTime;
-        velY += Time.deltaTime;
-
-        float r = r0;
-        float y = Mathf.Sin(velY * t);
-        t += Time.deltaTime;
-
-        float x = r * Mathf.Cos(w * t);
-        float z = r * Mathf.Sin(w * t);
-        Vector3 pos = new Vector3(x , y+1, z);
-        transform.localPosition = pos;
-
-        if(ps.isStopped)
+        if (ps.isPlaying)
         {
-            gameObject.SetActive(false);
+            w += Time.deltaTime;
+            velY += Time.deltaTime;
 
+            float r = r0;
+            float y = Mathf.Sin(velY * t);
+            t += Time.deltaTime;
+
+            float x = r * Mathf.Cos(w * t);
+            float z = r * Mathf.Sin(w * t);
+            Vector3 pos = new Vector3(x, y + 1, z);
+            transform.localPosition = pos;
         }
-
-        
-
     }
 }
