@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9ae6579ec5641842aba63cf11d40427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  factor: 0.56
+  factor: 0.687
 --- !u!114 &289244106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,12 +231,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7c9ebc214b0141c6a6ecf1e7443f3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iterations: 3
   bloomShader: {fileID: 4800000, guid: 926e8db920ab84661b115e2bdbc8199b, type: 3}
+  intensity: 3.01
+  iterations: 15
+  threshold: 0.42
   debug: 0
-  threshold: 0.51
-  softThreshold: 0.162
-  intensity: 4.29
 --- !u!1 &866403509
 GameObject:
   m_ObjectHideFlags: 0
