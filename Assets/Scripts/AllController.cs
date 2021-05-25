@@ -149,6 +149,7 @@ public class AllController : MonoBehaviour
                 vCam1.SetActive(false);
                 vCam2.SetActive(true);
                 objectToTeleport.transform.position = posFinish.position;
+                objectToTeleport.transform.rotation = posFinish.rotation;
                 teleported = true;
             }
 

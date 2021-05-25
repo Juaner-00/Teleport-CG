@@ -79,7 +79,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 14.2
-    - _SpherifyRadius: 2
+    - _SpherifyRadius: 4
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
