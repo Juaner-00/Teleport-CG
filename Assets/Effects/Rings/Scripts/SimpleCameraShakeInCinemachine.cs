@@ -6,23 +6,21 @@ using UnityEngine.Events;
 
 public class SimpleCameraShakeInCinemachine : MonoBehaviour
 {
-
-    [SerializeField] float ShakeDuration = 0.7f;
-    [SerializeField] float ShakeAmplitude = 1;
-    [SerializeField] float ShakeFrequency = 2.0f;
-
-    private float ShakeElapsedTime = 0f;
+    [SerializeField] float shakeAmplitude = 1;
+    [SerializeField] float shakeFrequency = 2.0f;
 
     [SerializeField] CinemachineVirtualCamera VirtualCamera;
     private CinemachineBasicMultiChannelPerlin virtualCameraNoise;
 
-    private void Awake()
-    {
-        if (Instance)
-            Destroy(this);
+    public float ShakeAmplitude { get => shakeAmplitude; set => shakeAmplitude = value; }
 
-        Instance = this;
-    }
+    // private void Awake()
+    // {
+    //     if (Instance)
+    //         Destroy(this);
+
+    //     Instance = this;
+    // }
 
     void Start()
     {
@@ -31,35 +29,16 @@ public class SimpleCameraShakeInCinemachine : MonoBehaviour
             virtualCameraNoise = VirtualCamera.GetCinemachineComponent<Cinemachine.CinemachineBasicMultiChannelPerlin>();
     }
 
-    // Método para empezar a agitar la cámara
-    public void Shake()
-    {
-        ShakeElapsedTime = ShakeDuration;
-    }
-
     void Update()
     {
         // Si es nulo no haga nada
         if (VirtualCamera != null && virtualCameraNoise != null)
         {
-            // Si el shake está ejecutándose
-            if (ShakeElapsedTime > 0)
-            {
-                // Poner los parámetros
-                virtualCameraNoise.m_AmplitudeGain = ShakeAmplitude;
-                virtualCameraNoise.m_FrequencyGain = ShakeFrequency;
-
-                // Actualiza el contador
-                ShakeElapsedTime -= Time.fixedUnscaledDeltaTime;
-            }
-            else
-            {
-                // Si se terminó resetear las variables
-                virtualCameraNoise.m_AmplitudeGain = 0f;
-                ShakeElapsedTime = 0f;
-            }
+            // Poner los parámetros
+            virtualCameraNoise.m_AmplitudeGain = shakeAmplitude * 1.5f;
+            virtualCameraNoise.m_FrequencyGain = shakeFrequency;
         }
     }
 
-    public static SimpleCameraShakeInCinemachine Instance { get; private set; }
+    // public static SimpleCameraShakeInCinemachine Instance { get; private set; }
 }
