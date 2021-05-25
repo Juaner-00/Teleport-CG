@@ -6,14 +6,29 @@ using UnityEngine.UI;
 public class AllController : MonoBehaviour
 {
     [SerializeField] float baseSpeed, baseSize, effect2Delay;
-    [SerializeField] GameObject disolver;
+    [SerializeField] GameObject disolveObject;
     [SerializeField] ParticleSystem fireRing, trailParticle;
-    [SerializeField] ProjectorRotation projectorR;
+    [SerializeField] ProjectorRotation projector;
     [SerializeField] Gradient gradient1, gradient2;
     [SerializeField] AnimationCurve curveSpeed;
     [SerializeField] Image flashImage;
     [SerializeField] AnimationCurve flashCurve;
     [SerializeField] GameObject[] gObject;
+
+    [Header("Controll Curve")]
+    [SerializeField] AnimationCurve intensityCurve;
+    [SerializeField] SimpleCameraShakeInCinemachine[] shakeControllers;
+    [SerializeField] BloomEffect bloom;
+    [SerializeField] float bloomMultiplier;
+    [SerializeField] AnimationCurve minBloomEffect;
+    // [SerializeField] CameraShakeController shakeController;
+
+    [Header("Teleport")]
+    [SerializeField] GameObject objectToTeleport;
+    [SerializeField] Transform posInitial;
+    [SerializeField] Transform posFinish;
+    [SerializeField] GameObject vCam1;
+    [SerializeField] GameObject vCam2;
 
     ParticleSystem[] allParticles;
     ParticleSystem[] effect1Particles;
@@ -36,6 +51,10 @@ public class AllController : MonoBehaviour
     bool hasFinised;
     bool effect1Active;
     bool effect2Active;
+    bool teleported;
+
+    bool isEffect1Playing;
+    bool isEffect2Playing;
 
     private void Awake()
     {
@@ -52,6 +71,11 @@ public class AllController : MonoBehaviour
     private void Start()
     {
         hasFinised = true;
+
+        posInitial.position = objectToTeleport.transform.position;
+
+        foreach (var shaker in shakeControllers)
+            shaker.ShakeAmplitude = intensityCurve.Evaluate(0);
 
         lenght = effect2Particles.Length;
         delays = new float[lenght];
@@ -92,8 +116,14 @@ public class AllController : MonoBehaviour
                 mainP.startDelay = new ParticleSystem.MinMaxCurve(delays[i] + effect2Delay);
             }
 
-        projectorR.DissolveDuration = projectorR.DissolveDuration / baseSpeed;
+        projector.DissolveDuration = projector.DissolveDuration / baseSpeed;
         trailP.colorOverLifetime = gradient;
+
+        vCam1.SetActive(true);
+        vCam2.SetActive(false);
+
+        objectToTeleport.transform.position = posInitial.position;
+        teleported = false;
 
         hasFinised = true;
     }
@@ -102,7 +132,7 @@ public class AllController : MonoBehaviour
     void Update()
     {
         if (!hasFinised)
-            t += Time.deltaTime / 25 * baseSpeed;
+            t += Time.deltaTime / (9.25f + effect2Delay) * baseSpeed;
 
         foreach (ParticleSystem p in allParticles)
         {
@@ -111,7 +141,16 @@ public class AllController : MonoBehaviour
         }
 
         if (fireRing.isStopped && !hasFinised)
-            disolver.SetActive(true);
+            disolveObject.SetActive(true);
+
+        if (!teleported && effect1Active && effect2Active)
+            if (!IsEffect1Playing)
+            {
+                vCam1.SetActive(false);
+                vCam2.SetActive(true);
+                objectToTeleport.transform.position = posFinish.position;
+                teleported = true;
+            }
 
         if (effect2Active)
             if (!IsEffect2Playing && !hasFinised)
@@ -130,6 +169,14 @@ public class AllController : MonoBehaviour
         // if (IsEffect2Playing && !hasFinised)
         flashImage.color = new Color(flashImage.color.r, flashImage.color.g, flashImage.color.b, flashCurve.Evaluate(t));
 
+        if (!hasFinised)
+            foreach (var shaker in shakeControllers)
+                shaker.ShakeAmplitude = intensityCurve.Evaluate(t);
+
+        float y = minBloomEffect.Evaluate(t) * bloomMultiplier;
+        float y2 = intensityCurve.Evaluate(t) * bloomMultiplier;
+
+        bloom.intensity = Mathf.Max(y, y2);
     }
 
     public void Activate(bool ef1, bool ef2, float size, float speed, int color)
@@ -192,6 +239,7 @@ public class AllController : MonoBehaviour
             return false;
         }
     }
+
     bool IsEffect2Playing
     {
         get
