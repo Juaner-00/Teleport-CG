@@ -70,7 +70,7 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SphereMultiplier: 0
+    - _SphereMultiplier: 1
     - _SpherifyRadius: 4
     - _SrcBlend: 1
     - _UVSec: 0
