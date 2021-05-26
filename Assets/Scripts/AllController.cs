@@ -40,6 +40,8 @@ public class AllController : MonoBehaviour
     ParticleSystem.EmissionModule emissionP;
     ParticleSystem.VelocityOverLifetimeModule velP;
 
+    [SerializeField] Animator anim;
+
     public static Action OnEffectFinished;
 
     float[] delays;
@@ -158,6 +160,8 @@ public class AllController : MonoBehaviour
             {
                 hasFinised = true;
                 OnEffectFinished?.Invoke();
+                anim.SetTrigger("Idle");
+                
             }
 
         if (effect1Active && !effect2Active)
@@ -165,6 +169,7 @@ public class AllController : MonoBehaviour
             {
                 hasFinised = true;
                 OnEffectFinished?.Invoke();
+                anim.SetTrigger("Idle");
             }
 
         // if (IsEffect2Playing && !hasFinised)
