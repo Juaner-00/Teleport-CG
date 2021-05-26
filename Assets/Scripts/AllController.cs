@@ -21,6 +21,9 @@ public class AllController : MonoBehaviour
     [SerializeField] BloomEffect bloom;
     [SerializeField] float bloomMultiplier;
     [SerializeField] AnimationCurve minBloomEffect;
+
+    [SerializeField] AnimationCurve curvePlayer;
+    [SerializeField] Material playerMaterial;
     // [SerializeField] CameraShakeController shakeController;
 
     [Header("Teleport")]
@@ -29,6 +32,8 @@ public class AllController : MonoBehaviour
     [SerializeField] Transform posFinish;
     [SerializeField] GameObject vCam1;
     [SerializeField] GameObject vCam2;
+    [SerializeField] Cinemachine.CinemachineBlenderSettings effect1and2Blend;
+    [SerializeField] Cinemachine.CinemachineBlenderSettings onlyEffect2Blend;
 
     ParticleSystem[] allParticles;
     ParticleSystem[] effect1Particles;
@@ -56,6 +61,19 @@ public class AllController : MonoBehaviour
     bool isEffect1Playing;
     bool isEffect2Playing;
 
+    Cinemachine.CinemachineBrain brain;
+
+
+    private void OnEnable()
+    {
+        UIController.OnStartEffect += Activate;
+    }
+
+    private void OnDisable()
+    {
+        UIController.OnStartEffect -= Activate;
+    }
+
     private void Awake()
     {
         if (Instance)
@@ -63,6 +81,8 @@ public class AllController : MonoBehaviour
         Instance = this;
 
         allParticles = GetComponentsInChildren<ParticleSystem>();
+
+        brain = Camera.main.GetComponent<Cinemachine.CinemachineBrain>();
 
         effect1Particles = transform.GetChild(0).GetComponentsInChildren<ParticleSystem>();
         effect2Particles = transform.GetChild(1).GetComponentsInChildren<ParticleSystem>();
@@ -84,6 +104,11 @@ public class AllController : MonoBehaviour
             mainP = effect2Particles[i].main;
             delays[i] = mainP.startDelay.Evaluate(0);
         }
+
+        objectToTeleport.transform.position = posInitial.position;
+        objectToTeleport.transform.rotation = posInitial.rotation;
+
+        playerMaterial.SetFloat("_SphereMultiplier", curvePlayer.Evaluate(0));
     }
 
     void SetVariables()
@@ -140,7 +165,7 @@ public class AllController : MonoBehaviour
             mainP.simulationSpeed = baseSpeed * (curveSpeed.Evaluate(t));
         }
 
-        if (fireRing.isStopped && !hasFinised)
+        if (effect1Active && fireRing.isStopped && !hasFinised)
             disolveObject.SetActive(true);
 
         if (!teleported && effect1Active && effect2Active)
@@ -178,6 +203,8 @@ public class AllController : MonoBehaviour
         float y2 = intensityCurve.Evaluate(t) * bloomMultiplier;
 
         bloom.intensity = Mathf.Max(y, y2);
+
+        playerMaterial.SetFloat("_SphereMultiplier", curvePlayer.Evaluate(t));
     }
 
     public void Activate(bool ef1, bool ef2, float size, float speed, int color)
@@ -201,9 +228,31 @@ public class AllController : MonoBehaviour
         SetVariables();
 
         if (effect2Active && !effect1Active)
-            t = effect2Delay / 25 * baseSpeed;
+        {
+            t = effect2Delay / (9.25f + effect2Delay);
+            vCam1.SetActive(false);
+            vCam2.SetActive(true);
+
+            objectToTeleport.transform.position = posFinish.position;
+            objectToTeleport.transform.rotation = posFinish.rotation;
+
+            brain.m_CustomBlends = onlyEffect2Blend;
+
+            for (int i = 0; i < lenght; i++)
+            {
+                mainP = effect2Particles[i].main;
+                mainP.startDelay = delays[i];
+            }
+        }
         else
+        {
             t = 0;
+
+            objectToTeleport.transform.rotation = posInitial.rotation;
+            objectToTeleport.transform.position = posInitial.position;
+
+            brain.m_CustomBlends = effect1and2Blend;
+        }
 
         if (effect1Active)
             foreach (var particle in effect1Particles)

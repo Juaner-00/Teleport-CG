@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,6 +14,7 @@ public class UIController : MonoBehaviour
 
     GameObject panel;
 
+    public static Action<bool, bool, float, float, int> OnStartEffect;
 
     private void Awake()
     {
@@ -48,7 +49,8 @@ public class UIController : MonoBehaviour
     public void StartEffect()
     {
         CloseUI();
-        AllController.Instance.Activate(effect1Toggle.isOn, effect2Toggle.isOn, sizeSlider.value, speedSlider.value, colorDropdown.value);
+        // AllController.Instance.Activate(effect1Toggle.isOn, effect2Toggle.isOn, sizeSlider.value, speedSlider.value, colorDropdown.value);
+        OnStartEffect?.Invoke(effect1Toggle.isOn, effect2Toggle.isOn, sizeSlider.value, speedSlider.value, colorDropdown.value);
     }
 
 }
