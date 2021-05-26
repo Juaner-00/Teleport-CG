@@ -6,9 +6,11 @@ using UnityEngine;
 public class ProjectorRotation : MonoBehaviour
 {
     [SerializeField] private AnimationCurve rotationSpeed;
-    [SerializeField] Color color1;
+    [SerializeField] public Color color;
     [SerializeField] float aparition;
     [SerializeField] float dissolveDuration;
+
+    float aparitionBase, dissolveBase;
 
     private float _time;
     float rotSpeed = 1f;
@@ -18,21 +20,63 @@ public class ProjectorRotation : MonoBehaviour
 
     private Renderer mat;
 
-    public float DissolveDuration { get => dissolveDuration; set => dissolveDuration = value; }
+    bool isActive;
+
+    private void OnEnable()
+    {
+        UIController.OnStartEffect += Restart;
+    }
+
+    private void OnDisable()
+    {
+        UIController.OnStartEffect -= Restart;
+    }
 
     void Start()
     {
+        isActive = false;
+        aparitionBase = aparition;
+        dissolveBase = dissolveDuration;
+
+        _time = 0;
+
         mat = GetComponent<Renderer>();
-        color1 = mat.material.GetColor("_Color");
+        // color1 = mat.material.GetColor("_Color");
     }
 
     // Update is called once per frame
     void Update()
     {
-        _time += Time.deltaTime;
-        transform.Rotate(0, rotationSpeed.Evaluate(rotSpeed), 0);
-        color1.a = Mathf.Lerp(0, 1, _time / aparition < 1 ? _time / aparition : 1);
-        mat.material.SetFloat("_Level", slider + _time / dissolveDuration);
-        mat.material.SetColor("_Color", color1);
+        if (isActive)
+        {
+            _time += Time.deltaTime;
+            transform.Rotate(0, rotationSpeed.Evaluate(rotSpeed), 0);
+            color.a = Mathf.Lerp(0, 1, _time / aparition < 1 ? _time / aparition : 1);
+            mat.material.SetFloat("_Level", slider + _time / dissolveDuration);
+            mat.material.SetColor("_Color", color);
+        }
+    }
+
+    public void Activate()
+    {
+        if (!isActive)
+            isActive = true;
+    }
+
+    public void Desactivate()
+    {
+        if (isActive)
+        {
+            aparition = aparitionBase;
+            dissolveDuration = dissolveBase;
+            isActive = false;
+            _time = 0;
+        }
+    }
+
+    void Restart(bool a, bool b, float c, float speed, int d)
+    {
+        aparition = aparitionBase / speed;
+        dissolveDuration = dissolveBase / speed;
     }
 }

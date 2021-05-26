@@ -160,7 +160,6 @@ public class AllController : MonoBehaviour
                 mainP.startDelay = new ParticleSystem.MinMaxCurve(delays[i] + effect2Delay);
             }
 
-        projector.DissolveDuration = projector.DissolveDuration / baseSpeed;
         trailP.colorOverLifetime = gradient;
 
         vCam1.SetActive(true);
@@ -191,7 +190,9 @@ public class AllController : MonoBehaviour
 
 
         if (effect1Active && fireRing.isStopped && !hasFinised)
-            disolveObject.SetActive(true);
+            projector.Activate();
+        else if (hasFinised)
+            projector.Desactivate();
 
         if (!animTriggerJump && t > ((effect2Delay + (5.2 * 0.85)) / (9.25f + effect2Delay)))
         {
@@ -249,15 +250,16 @@ public class AllController : MonoBehaviour
     public void Activate(bool ef1, bool ef2, float size, float speed, int color)
     {
         animTriggerJump = false;
+        changeAudio = false;
         switch (color)
         {
             case 1:
                 gradient = gradient1;
-                projectorMaterial.SetColor("_Color", color1);
+                projector.color = color1;
                 break;
             case 0:
                 gradient = gradient2;
-                projectorMaterial.SetColor("_Color", color2);
+                projector.color = color2;
                 break;
         }
 
@@ -267,7 +269,8 @@ public class AllController : MonoBehaviour
         effect1Active = ef1;
         effect2Active = ef2;
 
-        if (effect1Active) audioEfecto1.Play();
+        if (effect1Active)
+            audioEfecto1.Play();
 
         SetVariables();
 
@@ -296,6 +299,7 @@ public class AllController : MonoBehaviour
             objectToTeleport.transform.position = posInitial.position;
 
             brain.m_CustomBlends = effect1and2Blend;
+            brain.m_CustomBlends.m_CustomBlends[0].m_Blend.m_Time = 2 / baseSpeed;
         }
 
         if (effect1Active)

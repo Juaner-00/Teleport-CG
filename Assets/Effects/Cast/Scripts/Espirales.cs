@@ -27,6 +27,7 @@ public class Espirales : MonoBehaviour
         r1 = r0;
         w1 = w0;
         velY1 = velY0;
+        t = 0;
     }
 
     // Update is called once per frame
