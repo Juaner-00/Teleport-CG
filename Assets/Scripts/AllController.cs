@@ -10,7 +10,8 @@ public class AllController : MonoBehaviour
     [SerializeField] ParticleSystem fireRing, trailParticle;
     [SerializeField] ProjectorRotation projector;
     [SerializeField] Gradient gradient1, gradient2;
-    [SerializeField] AnimationCurve curveSpeed;
+    [SerializeField] Color color1, color2;
+    [SerializeField] AnimationCurve curveSpeed, curveGeneral;
     [SerializeField] Image flashImage;
     [SerializeField] AnimationCurve flashCurve;
     [SerializeField] GameObject[] gObject;
@@ -22,8 +23,12 @@ public class AllController : MonoBehaviour
     [SerializeField] float bloomMultiplier;
     [SerializeField] AnimationCurve minBloomEffect;
 
+    [Header("Audio Controller")]
+    [SerializeField] AudioSource audioEfecto1;
+    [SerializeField] AudioSource audioEfecto2;
+
     [SerializeField] AnimationCurve curvePlayer;
-    [SerializeField] Material playerMaterial;
+    [SerializeField] Material playerMaterial, projectorMaterial;
     // [SerializeField] CameraShakeController shakeController;
 
     [Header("Teleport")]
@@ -35,6 +40,9 @@ public class AllController : MonoBehaviour
     [SerializeField] Cinemachine.CinemachineBlenderSettings effect1and2Blend;
     [SerializeField] Cinemachine.CinemachineBlenderSettings onlyEffect2Blend;
 
+    [Header("Animation Controller")]
+    [SerializeField] Animator anim;
+
     ParticleSystem[] allParticles;
     ParticleSystem[] effect1Particles;
     ParticleSystem[] effect2Particles;
@@ -44,8 +52,8 @@ public class AllController : MonoBehaviour
     ParticleSystem.TrailModule trailP;
     ParticleSystem.EmissionModule emissionP;
     ParticleSystem.VelocityOverLifetimeModule velP;
+    ParticleSystem.LightsModule lightP;
 
-    [SerializeField] Animator anim;
 
     public static Action OnEffectFinished;
 
@@ -59,6 +67,8 @@ public class AllController : MonoBehaviour
     bool effect1Active;
     bool effect2Active;
     bool teleported;
+    bool animTriggerJump;
+    bool changeAudio;
 
     bool isEffect1Playing;
     bool isEffect2Playing;
@@ -115,6 +125,11 @@ public class AllController : MonoBehaviour
 
     void SetVariables()
     {
+        audioEfecto1.pitch = baseSpeed;
+        audioEfecto2.pitch = baseSpeed;
+
+        anim.speed = baseSpeed;
+
         trailP = trailParticle.trails;
 
         foreach (GameObject gO in gObject)
@@ -124,6 +139,7 @@ public class AllController : MonoBehaviour
 
         foreach (ParticleSystem p in allParticles)
         {
+            lightP = p.lights;
             velP = p.velocityOverLifetime;
             emissionP = p.emission;
             shapeP = p.shape;
@@ -134,6 +150,7 @@ public class AllController : MonoBehaviour
             shapeP.radius *= baseSize;
             emissionP.rateOverTimeMultiplier *= baseSize;
             velP.speedModifierMultiplier *= baseSize;
+            lightP.intensityMultiplier *= baseSize;
         }
 
         if (effect1Active)
@@ -163,12 +180,30 @@ public class AllController : MonoBehaviour
 
         foreach (ParticleSystem p in allParticles)
         {
+            lightP = p.lights;
             mainP = p.main;
             mainP.simulationSpeed = baseSpeed * (curveSpeed.Evaluate(t));
+            lightP.intensity = baseSize * (curveGeneral.Evaluate(t));
         }
+
+        audioEfecto1.volume = baseSize * (curveGeneral.Evaluate(t));
+        audioEfecto2.volume = baseSize * (curveGeneral.Evaluate(t));
+
 
         if (effect1Active && fireRing.isStopped && !hasFinised)
             disolveObject.SetActive(true);
+
+        if (!animTriggerJump && t > ((effect2Delay + (5.2 * 0.85)) / (9.25f + effect2Delay)))
+        {
+            anim.SetTrigger("Jump");
+            animTriggerJump = true;
+        }
+        if (!changeAudio && t > (effect2Delay / (9.25f + effect2Delay)))
+        {
+            audioEfecto2.Play();
+            changeAudio = true;
+        }
+
 
         if (!teleported && effect1Active && effect2Active)
             if (!IsEffect1Playing)
@@ -186,7 +221,7 @@ public class AllController : MonoBehaviour
                 hasFinised = true;
                 OnEffectFinished?.Invoke();
                 anim.SetTrigger("Idle");
-                
+
             }
 
         if (effect1Active && !effect2Active)
@@ -208,19 +243,21 @@ public class AllController : MonoBehaviour
         float y2 = intensityCurve.Evaluate(t) * bloomMultiplier;
 
         bloom.intensity = Mathf.Max(y, y2);
-
         playerMaterial.SetFloat("_SphereMultiplier", curvePlayer.Evaluate(t));
     }
 
     public void Activate(bool ef1, bool ef2, float size, float speed, int color)
     {
+        animTriggerJump = false;
         switch (color)
         {
             case 1:
                 gradient = gradient1;
+                projectorMaterial.SetColor("_Color", color1);
                 break;
             case 0:
                 gradient = gradient2;
+                projectorMaterial.SetColor("_Color", color2);
                 break;
         }
 
@@ -229,6 +266,8 @@ public class AllController : MonoBehaviour
 
         effect1Active = ef1;
         effect2Active = ef2;
+
+        if (effect1Active) audioEfecto1.Play();
 
         SetVariables();
 
