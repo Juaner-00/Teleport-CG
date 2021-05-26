@@ -351,5 +351,10 @@ public class AllController : MonoBehaviour
         }
     }
 
+    public void Exit()
+    {
+        Application.Quit();
+    }
+
     public static AllController Instance { get; private set; }
 }
