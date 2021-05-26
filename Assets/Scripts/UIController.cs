@@ -11,6 +11,7 @@ public class UIController : MonoBehaviour
     [SerializeField] Slider sizeSlider;
     [SerializeField] Slider speedSlider;
     [SerializeField] TMP_Dropdown colorDropdown;
+    [SerializeField] Animator anim;
 
     GameObject panel;
 
@@ -38,6 +39,7 @@ public class UIController : MonoBehaviour
     void OpenUI()
     {
         panel.SetActive(true);
+       
     }
 
     void CloseUI()
@@ -49,6 +51,8 @@ public class UIController : MonoBehaviour
     {
         CloseUI();
         AllController.Instance.Activate(effect1Toggle.isOn, effect2Toggle.isOn, sizeSlider.value, speedSlider.value, colorDropdown.value);
+        anim.SetTrigger("Cast");
+        
     }
 
 }
